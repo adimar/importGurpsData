@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as xml2js from 'xml2js';
 import * as _ from "lodash";
+import {writeJsonFile} from "./helpers";
 
 
 export type SysSkillDefault = {
@@ -95,22 +96,7 @@ fs.readFile("../data/skillsBasicSet.xml", "utf8", function (err, data) {
             return skills;
         },{});
 
-        console.log("writing file....");
-        var skillsFS = fs.createWriteStream("../data/raw-gurps-skills.json", {
-            flags: 'w',
-            encoding: 'utf8'
-        })
-        skillsFS.write("{\n");
-
-
-        var skillsString = _.chain(skillsJson).map((skillEntry:SysSkill) => {
-            console.log("writing file...." + skillEntry.skillId);
-            return ("\"" + skillEntry.skillId + "\":" + JSON.stringify(skillEntry) + "\n");
-        }).join(",").value();
-        skillsFS.write(skillsString);
-        skillsFS.write("}");
-        skillsFS.end();
-        console.log("finished....");
+        writeJsonFile("raw-gurps-skills.json","skillId",skillsJson);
     })
 //------------------------------------------------------------------------------------------
 
