@@ -1,2 +1,7 @@
-//var extractSkills = require("./extractSkills");
-var extractAdvantages = require("./extractAdvantages");
+
+
+
+
+
+var extractSkills = require("./extractSkills");
+//var extractAdvantages = require("./extractAdvantages");

@@ -16,19 +16,26 @@ export type SysSkill = {
     difficulty: string;
     reference: string;
     categories: string[];
-    defaults: SysSkillDefault[]
-    specializations: string[]
-    optionalSpecializations: string[]
+    skillDefaults: SysSkillDefault[];
+    attributeDefault: SysSkillDefault;
+    specializations: string[];
+    optionalSpecializations: string[];
 }
 
 let compileSkillEntry = function (singleSkill: any, skillId: string, skillName: any, difficulty: any) {
-    let defaultsArray: SysSkillDefault[] = _.map(singleSkill.default, (defaultEntry: any) => {
-        return {
-            type: (defaultEntry.name ? defaultEntry.type : "Attribute"),
-            name: (defaultEntry.name ? defaultEntry.name : defaultEntry.type),
-            modifier: defaultEntry.modifier
+    let defaultsData = _.reduce(singleSkill.default, (data, defaultEntry: any) => {
+         var def:SysSkillDefault = {
+            type: (defaultEntry.name ? defaultEntry.type[0] : "Attribute"),
+            name: _.camelCase((defaultEntry.name ? defaultEntry.name[0] : defaultEntry.type[0])),
+            modifier: parseInt(defaultEntry.modifier[0])
         };
-    })
+
+
+        data[ (defaultEntry.name ? "skillDefaults" : "attributeDefault")].push(def);
+        return data;
+
+
+    },{skillDefaults:[],attributeDefault:[]})
 
 
     let skillEntry: SysSkill = {
@@ -38,11 +45,12 @@ let compileSkillEntry = function (singleSkill: any, skillId: string, skillName: 
         difficulty: difficulty[1],
         reference: _.join(singleSkill.reference, ","),
         categories: singleSkill.categories[0].category,
-        defaults: defaultsArray,
+        skillDefaults: defaultsData.skillDefaults,
+        attributeDefault: _.size(defaultsData.attributeDefault)>0?defaultsData.attributeDefault[0]:null,
         specializations: singleSkill.specialization || [],
         optionalSpecializations:[]
 
-    }
+    };
     return skillEntry;
 };
 

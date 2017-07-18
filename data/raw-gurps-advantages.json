@@ -1,2 +1,655 @@
 {
+"360Vision":{"advId":"360Vision","name":"360° Vision","type":"Physical, Exotic","reference":"B34","category":"Advantage","modifiers":null}
+,"absentMindedness":{"advId":"absentMindedness","name":"Absent-Mindedness","type":"Mental","reference":"B122","category":"Disadvantage","modifiers":null}
+,"absoluteDirection":{"advId":"absoluteDirection","name":"Absolute Direction","type":"Mental/Physical","reference":"B34","category":"Advantage","modifiers":null}
+,"absoluteTiming":{"advId":"absoluteTiming","name":"Absolute Timing","type":"Mental","reference":"B35","category":"Advantage","modifiers":null}
+,"accelerationWeakness":{"advId":"accelerationWeakness","name":"Acceleration Weakness","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"accessoryTool":{"advId":"accessoryTool","name":"Accessory (@Tool@)","type":"Physical, Exotic","reference":"B100","category":"Perk","modifiers":null}
+,"acrophobiaHeights":{"advId":"acrophobiaHeights","name":"Acrophobia (Heights)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"acuteHearing":{"advId":"acuteHearing","name":"Acute Hearing","type":"Physical","cost":["2"],"reference":"B35","category":"Advantage","modifiers":null}
+,"acuteSenseSpecialSense":{"advId":"acuteSenseSpecialSense","name":"Acute Sense (@Special Sense@)","type":"Physical","cost":["2"],"reference":"B35","category":"Advantage","modifiers":null}
+,"acuteTasteSmell":{"advId":"acuteTasteSmell","name":"Acute Taste & Smell","type":"Physical","cost":["2"],"reference":"B35","category":"Advantage","modifiers":null}
+,"acuteTouch":{"advId":"acuteTouch","name":"Acute Touch","type":"Physical","cost":["2"],"reference":"B35","category":"Advantage","modifiers":null}
+,"acuteVision":{"advId":"acuteVision","name":"Acute Vision","type":"Physical","cost":["2"],"reference":"B35","category":"Advantage","modifiers":null}
+,"addictionSubstance":{"advId":"addictionSubstance","name":"Addiction (@Substance@)","type":"Mental/Physical","reference":"B122","category":"Disadvantage","modifiers":null}
+,"affliction":{"advId":"affliction","name":"Affliction","type":"Physical, Exotic","cost":["10"],"reference":"B35","category":"Advantage","modifiers":null}
+,"agoraphobiaOpenSpaces":{"advId":"agoraphobiaOpenSpaces","name":"Agoraphobia (Open Spaces)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"aichmophobiaTl5SharpThings":{"advId":"aichmophobiaTl5SharpThings","name":"Aichmophobia/TL5- (Sharp Things)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"aichmophobiaTl6SharpThings":{"advId":"aichmophobiaTl6SharpThings","name":"Aichmophobia/TL6+ (Sharp Things)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"ailurophobiaCats":{"advId":"ailurophobiaCats","name":"Ailurophobia (Cats)","type":"Mental","reference":"B149","category":"Disadvantage","modifiers":null}
+,"alcoholIntolerance":{"advId":"alcoholIntolerance","name":"Alcohol Intolerance","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"alcoholTolerance":{"advId":"alcoholTolerance","name":"Alcohol Tolerance","type":"Physical","reference":"B100","category":"Perk","modifiers":null}
+,"alcoholism":{"advId":"alcoholism","name":"Alcoholism","type":"Physical","reference":"B122","category":"Disadvantage","modifiers":null}
+,"allyWho":{"advId":"allyWho","name":"Ally (@Who@)","type":"Social","reference":"B36","category":"Advantage","modifiers":null}
+,"alteredTimeRate":{"advId":"alteredTimeRate","name":"Altered Time Rate","type":"Physical, Exotic","cost":["100"],"reference":"B38","category":"Advantage","modifiers":null}
+,"alternateIdentity":{"advId":"alternateIdentity","name":"Alternate Identity","type":"Social","reference":"B39","category":"Advantage","modifiers":null}
+,"ambidexterity":{"advId":"ambidexterity","name":"Ambidexterity","type":"Physical","reference":"B39","category":"Advantage","modifiers":null}
+,"amnesiaPartial":{"advId":"amnesiaPartial","name":"Amnesia (Partial)","type":"Physical","reference":"B123","category":"Disadvantage","modifiers":null}
+,"amnesiaTotal":{"advId":"amnesiaTotal","name":"Amnesia (Total)","type":"Physical","reference":"B123","category":"Disadvantage","modifiers":null}
+,"amphibious":{"advId":"amphibious","name":"Amphibious","type":"Physical, Exotic","reference":"B40","category":"Advantage","modifiers":null}
+,"animalEmpathy":{"advId":"animalEmpathy","name":"Animal Empathy","type":"Mental","reference":"B40","category":"Advantage","modifiers":null}
+,"appearance":{"advId":"appearance","name":"Appearance","type":"Physical","reference":"B21","category":"Advantage","modifiers":null}
+,"arachnophobiaSpiders":{"advId":"arachnophobiaSpiders","name":"Arachnophobia (Spiders)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"armDx":{"advId":"armDx","name":"Arm DX","type":"Physical","cost":["16"],"reference":"B40","category":"Advantage","modifiers":null}
+,"armSt":{"advId":"armSt","name":"Arm ST","type":"Physical","cost":["5"],"reference":"B40","category":"Advantage","modifiers":null}
+,"attentive":{"advId":"attentive","name":"Attentive","type":"Mental","reference":"B163","category":"Quirk","modifiers":null}
+,"autophobiaBeingAlone":{"advId":"autophobiaBeingAlone","name":"Autophobia (Being Alone)","type":"Mental","reference":"B149","category":"Disadvantage","modifiers":null}
+,"autotrance":{"advId":"autotrance","name":"Autotrance","type":"Mental","reference":"B101","category":"Perk","modifiers":null}
+,"badBackMild":{"advId":"badBackMild","name":"Bad Back (Mild)","type":"Physical","reference":"B123","category":"Disadvantage","modifiers":null}
+,"badBackSevere":{"advId":"badBackSevere","name":"Bad Back (Severe)","type":"Physical","reference":"B123","category":"Disadvantage","modifiers":null}
+,"badGrip":{"advId":"badGrip","name":"Bad Grip","type":"Physical","cost":["-5"],"reference":"B123","category":"Disadvantage","modifiers":null}
+,"badSightFarsighted":{"advId":"badSightFarsighted","name":"Bad Sight (Farsighted)","type":"Physical","reference":"B123","category":"Disadvantage","modifiers":null}
+,"badSightNearsighted":{"advId":"badSightNearsighted","name":"Bad Sight (Nearsighted)","type":"Physical","reference":"B123","category":"Disadvantage","modifiers":null}
+,"badSmell":{"advId":"badSmell","name":"Bad Smell","type":"Physical","reference":"B128","category":"Disadvantage","modifiers":null}
+,"badTemper":{"advId":"badTemper","name":"Bad Temper","type":"Mental","reference":"B124","category":"Disadvantage","modifiers":null}
+,"berserk":{"advId":"berserk","name":"Berserk","type":"Mental","reference":"B124","category":"Disadvantage","modifiers":null}
+,"bestial":{"advId":"bestial","name":"Bestial","type":"Mental, Exotic","reference":"B124","category":"Disadvantage","modifiers":null}
+,"binding":{"advId":"binding","name":"Binding","type":"Physical, Exotic","cost":["2"],"reference":"B40","category":"Advantage","modifiers":null}
+,"blessed":{"advId":"blessed","name":"Blessed","type":"Mental, Supernatural","reference":"B40","category":"Advantage","modifiers":null}
+,"blessedHeroicFeats":{"advId":"blessedHeroicFeats","name":"Blessed (Heroic Feats)","type":"Mental, Supernatural","reference":"B41","category":"Advantage","modifiers":null}
+,"blindness":{"advId":"blindness","name":"Blindness","type":"Physical","reference":"B124","category":"Disadvantage","modifiers":null}
+,"bloodlust":{"advId":"bloodlust","name":"Bloodlust","type":"Mental","reference":"B125","category":"Disadvantage","modifiers":null}
+,"bowlegged":{"advId":"bowlegged","name":"Bowlegged","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"brachiator":{"advId":"brachiator","name":"Brachiator","type":"Physical, Exotic","reference":"B41","category":"Advantage","modifiers":null}
+,"breathHolding":{"advId":"breathHolding","name":"Breath-Holding","type":"Physical, Exotic","cost":["2"],"reference":"B41","category":"Advantage","modifiers":null}
+,"broadMinded":{"advId":"broadMinded","name":"Broad-Minded","type":"Mental","reference":"B163","category":"Quirk","modifiers":null}
+,"brontophobiaLoudNoises":{"advId":"brontophobiaLoudNoises","name":"Brontophobia (Loud Noises)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"bully":{"advId":"bully","name":"Bully","type":"Mental","reference":"B125","category":"Disadvantage","modifiers":null}
+,"callous":{"advId":"callous","name":"Callous","type":"Mental","reference":"B125","category":"Disadvantage","modifiers":null}
+,"cannotFloat":{"advId":"cannotFloat","name":"Cannot Float","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"cannotLearn":{"advId":"cannotLearn","name":"Cannot Learn","type":"Mental","reference":"B125","category":"Disadvantage","modifiers":null}
+,"cannotSpeak":{"advId":"cannotSpeak","name":"Cannot Speak","type":"Physical","reference":"B125","category":"Disadvantage","modifiers":null}
+,"cannotSpeakMute":{"advId":"cannotSpeakMute","name":"Cannot Speak (Mute)","type":"Physical","reference":"B125","category":"Disadvantage","modifiers":null}
+,"careful":{"advId":"careful","name":"Careful","type":"Mental","reference":"B163","category":"Quirk","modifiers":null}
+,"catfall":{"advId":"catfall","name":"Catfall","type":"Physical, Exotic","reference":"B41","category":"Advantage","modifiers":null}
+,"chameleon":{"advId":"chameleon","name":"Chameleon","type":"Physical, Exotic","cost":["5"],"reference":"B41","category":"Advantage","modifiers":null}
+,"channeling":{"advId":"channeling","name":"Channeling","type":"Mental, Supernatural","reference":"B41","category":"Advantage","modifiers":null}
+,"charisma":{"advId":"charisma","name":"Charisma","type":"Mental","cost":["5"],"reference":"B41","category":"Advantage","modifiers":null}
+,"charitable":{"advId":"charitable","name":"Charitable","type":"Mental","reference":"B125","category":"Disadvantage","modifiers":null}
+,"chauvinistic":{"advId":"chauvinistic","name":"Chauvinistic","type":"Mental","reference":"B163","category":"Quirk","modifiers":null}
+,"chronicDepression":{"advId":"chronicDepression","name":"Chronic Depression","type":"Mental","reference":"B126","category":"Disadvantage","modifiers":null}
+,"chronicPain":{"advId":"chronicPain","name":"Chronic Pain","type":"Physical","reference":"B126","category":"Disadvantage","modifiers":null}
+,"chummy":{"advId":"chummy","name":"Chummy","type":"Mental","reference":"B126","category":"Disadvantage","modifiers":null}
+,"chummyGregarious":{"advId":"chummyGregarious","name":"Chummy (Gregarious)","type":"Mental","reference":"B126","category":"Disadvantage","modifiers":null}
+,"claimToHospitality":{"advId":"claimToHospitality","name":"Claim to Hospitality","type":"Social","reference":"B41","category":"Advantage","modifiers":null}
+,"clairsentience":{"advId":"clairsentience","name":"Clairsentience","type":"Mental, Supernatural","reference":"B42","category":"Advantage","modifiers":null}
+,"claustrophobiaEnclosedSpaces":{"advId":"claustrophobiaEnclosedSpaces","name":"Claustrophobia (Enclosed Spaces)","type":"Mental","reference":"B149","category":"Disadvantage","modifiers":null}
+,"clawsBluntFeet":{"advId":"clawsBluntFeet","name":"Claws, Blunt (Feet)","type":"Physical","reference":"B42","category":"Advantage","modifiers":null}
+,"clawsBluntHands":{"advId":"clawsBluntHands","name":"Claws, Blunt (Hands)","type":"Physical","reference":"B42","category":"Advantage","modifiers":null}
+,"clawsHooves":{"advId":"clawsHooves","name":"Claws, Hooves","type":"Physical","reference":"B42","category":"Advantage","modifiers":null}
+,"clawsLongTalonsFeet":{"advId":"clawsLongTalonsFeet","name":"Claws, Long Talons (Feet)","type":"Physical","reference":"B43","category":"Advantage","modifiers":null}
+,"clawsLongTalonsHands":{"advId":"clawsLongTalonsHands","name":"Claws, Long Talons (Hands)","type":"Physical","reference":"B43","category":"Advantage","modifiers":null}
+,"clawsSharpFeet":{"advId":"clawsSharpFeet","name":"Claws, Sharp (Feet)","type":"Physical","reference":"B42","category":"Advantage","modifiers":null}
+,"clawsSharpHands":{"advId":"clawsSharpHands","name":"Claws, Sharp (Hands)","type":"Physical","reference":"B42","category":"Advantage","modifiers":null}
+,"clawsTalonsFeet":{"advId":"clawsTalonsFeet","name":"Claws, Talons (Feet)","type":"Physical","reference":"B43","category":"Advantage","modifiers":null}
+,"clawsTalonsHands":{"advId":"clawsTalonsHands","name":"Claws, Talons (Hands)","type":"Physical","reference":"B43","category":"Advantage","modifiers":null}
+,"clericalInvestment":{"advId":"clericalInvestment","name":"Clerical Investment","type":"Social","reference":"B43","category":"Advantage","modifiers":null}
+,"clinging":{"advId":"clinging","name":"Clinging","type":"Physical, Exotic","reference":"B43","category":"Advantage","modifiers":null}
+,"clueless":{"advId":"clueless","name":"Clueless","type":"Mental","reference":"B126","category":"Disadvantage","modifiers":null}
+,"codeOfHonor":{"advId":"codeOfHonor","name":"Code of Honor","type":"Mental","reference":"B163","category":"Quirk","modifiers":null}
+,"codeOfHonorChivalry":{"advId":"codeOfHonorChivalry","name":"Code of Honor (Chivalry)","type":"Mental","reference":"B127","category":"Disadvantage","modifiers":null}
+,"codeOfHonorGentlemans":{"advId":"codeOfHonorGentlemans","name":"Code of Honor (Gentleman's)","type":"Mental","reference":"B127","category":"Disadvantage","modifiers":null}
+,"codeOfHonorPirates":{"advId":"codeOfHonorPirates","name":"Code of Honor (Pirate's)","type":"Mental","reference":"B127","category":"Disadvantage","modifiers":null}
+,"codeOfHonorProfessional":{"advId":"codeOfHonorProfessional","name":"Code of Honor (Professional)","type":"Mental","reference":"B127","category":"Disadvantage","modifiers":null}
+,"codeOfHonorSoldiers":{"advId":"codeOfHonorSoldiers","name":"Code of Honor (Soldier's)","type":"Mental","reference":"B127","category":"Disadvantage","modifiers":null}
+,"codeOfHonorTheatrical":{"advId":"codeOfHonorTheatrical","name":"Code of Honor (Theatrical)","type":"Mental","reference":"B127","category":"Disadvantage","modifiers":null}
+,"coitophobiaSex":{"advId":"coitophobiaSex","name":"Coitophobia (Sex)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"coldBlooded":{"advId":"coldBlooded","name":"Cold-Blooded","type":"Physical, Exotic","reference":"B127","category":"Disadvantage","modifiers":null}
+,"colorblindness":{"advId":"colorblindness","name":"Colorblindness","type":"Physical","reference":"B127","category":"Disadvantage","modifiers":null}
+,"combatParalysis":{"advId":"combatParalysis","name":"Combat Paralysis","type":"Physical","reference":"B127","category":"Disadvantage","modifiers":null}
+,"combatReflexes":{"advId":"combatReflexes","name":"Combat Reflexes","type":"Mental","reference":"B43","category":"Advantage","modifiers":null}
+,"commonSense":{"advId":"commonSense","name":"Common Sense","type":"Mental","reference":"B43","category":"Advantage","modifiers":null}
+,"compartmentalizedMind":{"advId":"compartmentalizedMind","name":"Compartmentalized Mind","type":"Mental, Exotic","cost":["50"],"reference":"B43","category":"Advantage","modifiers":null}
+,"compulsiveCarousing":{"advId":"compulsiveCarousing","name":"Compulsive Carousing","type":"Mental","reference":"B128","category":"Disadvantage","modifiers":null}
+,"compulsiveGambling":{"advId":"compulsiveGambling","name":"Compulsive Gambling","type":"Mental","reference":"B128","category":"Disadvantage","modifiers":null}
+,"compulsiveGenerosity":{"advId":"compulsiveGenerosity","name":"Compulsive Generosity","type":"Mental","reference":"B128","category":"Disadvantage","modifiers":null}
+,"compulsiveLying":{"advId":"compulsiveLying","name":"Compulsive Lying","type":"Mental","reference":"B128","category":"Disadvantage","modifiers":null}
+,"compulsiveSpending":{"advId":"compulsiveSpending","name":"Compulsive Spending","type":"Mental","reference":"B129","category":"Disadvantage","modifiers":null}
+,"compulsiveVowing":{"advId":"compulsiveVowing","name":"Compulsive Vowing","type":"Mental","reference":"B129","category":"Disadvantage","modifiers":null}
+,"confused":{"advId":"confused","name":"Confused","type":"Physical","reference":"B129","category":"Disadvantage","modifiers":null}
+,"congenial":{"advId":"congenial","name":"Congenial","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"constrictionAttack":{"advId":"constrictionAttack","name":"Constriction Attack","type":"Physical, Exotic","reference":"B43","category":"Advantage","modifiers":null}
+,"contactWho":{"advId":"contactWho","name":"Contact (@Who@)","type":"Social","reference":"B44","category":"Advantage","modifiers":null}
+,"cowardice":{"advId":"cowardice","name":"Cowardice","type":"Mental","reference":"B129","category":"Disadvantage","modifiers":null}
+,"culturalAdaptability":{"advId":"culturalAdaptability","name":"Cultural Adaptability","type":"Mental","reference":"B46","category":"Advantage","modifiers":null}
+,"culturalFamiliarityCulture":{"advId":"culturalFamiliarityCulture","name":"Cultural Familiarity (@Culture@)","type":"Mental","reference":"B23","category":"Advantage","modifiers":null}
+,"curious":{"advId":"curious","name":"Curious","type":"Mental","reference":"B129","category":"Disadvantage","modifiers":null}
+,"cursed":{"advId":"cursed","name":"Cursed","type":"Mental, Supernatural","reference":"B129","category":"Disadvantage","modifiers":null}
+,"cybernetics":{"advId":"cybernetics","name":"Cybernetics","type":"Physical","reference":"B46","category":"Advantage","modifiers":null}
+,"cynophobiaDogs":{"advId":"cynophobiaDogs","name":"Cynophobia (Dogs)","type":"Mental","reference":"B149","category":"Disadvantage","modifiers":null}
+,"damageResistance":{"advId":"damageResistance","name":"Damage Resistance","type":"Physical, Exotic","cost":["5"],"reference":"B47","category":"Advantage","modifiers":null}
+,"dangerSense":{"advId":"dangerSense","name":"Danger Sense","type":"Mental","reference":"B47","category":"Advantage","modifiers":null}
+,"daredevil":{"advId":"daredevil","name":"Daredevil","type":"Mental","reference":"B47","category":"Advantage","modifiers":null}
+,"darkVision":{"advId":"darkVision","name":"Dark Vision","type":"Physical, Exotic","reference":"B47","category":"Advantage","modifiers":null}
+,"deafness":{"advId":"deafness","name":"Deafness","type":"Physical","reference":"B129","category":"Disadvantage","modifiers":null}
+,"debt":{"advId":"debt","name":"Debt","type":"Social","cost":["-1"],"reference":"B26","category":"Disadvantage","modifiers":null}
+,"decreasedBasicMove":{"advId":"decreasedBasicMove","name":"Decreased Basic Move","type":"Physical","cost":["-5"],"reference":"B17","category":"Attribute","modifiers":null}
+,"decreasedBasicSpeed":{"advId":"decreasedBasicSpeed","name":"Decreased Basic Speed","type":"Physical","cost":["-5"],"reference":"B17","category":"Attribute","modifiers":null}
+,"decreasedDexterity":{"advId":"decreasedDexterity","name":"Decreased Dexterity","type":"Physical","cost":["-20"],"reference":"B15","category":"Attribute","modifiers":null}
+,"decreasedHealth":{"advId":"decreasedHealth","name":"Decreased Health","type":"Physical","cost":["-10"],"reference":"B14","category":"Attribute","modifiers":null}
+,"decreasedIntelligence":{"advId":"decreasedIntelligence","name":"Decreased Intelligence","type":"Mental","cost":["-20"],"reference":"B15","category":"Attribute","modifiers":null}
+,"decreasedPerception":{"advId":"decreasedPerception","name":"Decreased Perception","type":"Mental/Physical","cost":["-5"],"reference":"B16","category":"Attribute","modifiers":null}
+,"decreasedStrength":{"advId":"decreasedStrength","name":"Decreased Strength","type":"Physical","cost":["-10"],"reference":"B14","category":"Attribute","modifiers":null}
+,"decreasedTimeRate":{"advId":"decreasedTimeRate","name":"Decreased Time Rate","type":"Mental, Exotic","reference":"B129","category":"Disadvantage","modifiers":null}
+,"decreasedWill":{"advId":"decreasedWill","name":"Decreased Will","type":"Mental","cost":["-5"],"reference":"B16","category":"Attribute","modifiers":null}
+,"deepSleeper":{"advId":"deepSleeper","name":"Deep Sleeper","type":"Physical","reference":"B101","category":"Perk","modifiers":null}
+,"delusionBelief":{"advId":"delusionBelief","name":"Delusion (@Belief@)","type":"Mental","reference":"B130","category":"Disadvantage","modifiers":null}
+,"delusions":{"advId":"delusions","name":"Delusions","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"demophobiaCrowds":{"advId":"demophobiaCrowds","name":"Demophobia (Crowds)","type":"Mental","reference":"B149","category":"Disadvantage","modifiers":null}
+,"dependantWho":{"advId":"dependantWho","name":"Dependant (@Who@)","type":"Social","reference":"B131","category":"Disadvantage","modifiers":null}
+,"dependencySubstance":{"advId":"dependencySubstance","name":"Dependency (@Substance@)","type":"Physical, Exotic","reference":"B130","category":"Disadvantage","modifiers":null}
+,"destinyAdvantage":{"advId":"destinyAdvantage","name":"Destiny (@Advantage@)","type":"Mental, Supernatural","reference":"B132","category":"Advantage","modifiers":null}
+,"destinyDisadvantage":{"advId":"destinyDisadvantage","name":"Destiny (@Disadvantage@)","type":"Mental, Supernatural","reference":"B132","category":"Disadvantage","modifiers":null}
+,"detect":{"advId":"detect","name":"Detect","type":"Mental/Physical, Exotic","reference":"B48","category":"Advantage","modifiers":null}
+,"digitalMind":{"advId":"digitalMind","name":"Digital Mind","type":"Physical, Exotic","reference":"B49","category":"Advantage","modifiers":null}
+,"disciplinesOfFaithAsceticism":{"advId":"disciplinesOfFaithAsceticism","name":"Disciplines of Faith (Asceticism)","type":"Mental","reference":"B132","category":"Disadvantage","modifiers":null}
+,"disciplinesOfFaithMonasticism":{"advId":"disciplinesOfFaithMonasticism","name":"Disciplines of Faith (Monasticism)","type":"Mental","reference":"B132","category":"Disadvantage","modifiers":null}
+,"disciplinesOfFaithMysticism":{"advId":"disciplinesOfFaithMysticism","name":"Disciplines of Faith (Mysticism)","type":"Mental","reference":"B132","category":"Disadvantage","modifiers":null}
+,"disciplinesOfFaithRitualism":{"advId":"disciplinesOfFaithRitualism","name":"Disciplines of Faith (Ritualism)","type":"Mental","reference":"B132","category":"Disadvantage","modifiers":null}
+,"discriminatoryHearing":{"advId":"discriminatoryHearing","name":"Discriminatory Hearing","type":"Physical, Exotic","reference":"B49","category":"Advantage","modifiers":null}
+,"discriminatorySmell":{"advId":"discriminatorySmell","name":"Discriminatory Smell","type":"Physical, Exotic","reference":"B49","category":"Advantage","modifiers":null}
+,"discriminatoryTaste":{"advId":"discriminatoryTaste","name":"Discriminatory Taste","type":"Physical, Exotic","reference":"B49","category":"Advantage","modifiers":null}
+,"dislikesItem":{"advId":"dislikesItem","name":"Dislikes @Item@","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"distinctiveFeatures":{"advId":"distinctiveFeatures","name":"Distinctive Features","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"distractible":{"advId":"distractible","name":"Distractible","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"disturbingVoice":{"advId":"disturbingVoice","name":"Disturbing Voice","type":"Physical","reference":"B132","category":"Disadvantage","modifiers":null}
+,"divineCurseCurse":{"advId":"divineCurseCurse","name":"Divine Curse (@Curse@)","type":"Mental, Supernatural","reference":"B132","category":"Disadvantage","modifiers":null}
+,"divineCurseAllChildrenDieYoung":{"advId":"divineCurseAllChildrenDieYoung","name":"Divine Curse (All children die young)","type":"Mental, Supernatural","reference":"B132","category":"Disadvantage","modifiers":null}
+,"divineCurseNeverSleepAtNight":{"advId":"divineCurseNeverSleepAtNight","name":"Divine Curse (Never sleep at night)","type":"Mental, Supernatural","reference":"B132","category":"Disadvantage","modifiers":null}
+,"doesntBreathe":{"advId":"doesntBreathe","name":"Doesn't Breathe","type":"Physical, Exotic","reference":"B49","category":"Advantage","modifiers":null}
+,"doesntEatOrDrink":{"advId":"doesntEatOrDrink","name":"Doesn't Eat or Drink","type":"Physical, Exotic","reference":"B50","category":"Advantage","modifiers":null}
+,"doesntSleep":{"advId":"doesntSleep","name":"Doesn't Sleep","type":"Physical, Exotic","reference":"B50","category":"Advantage","modifiers":null}
+,"dominance":{"advId":"dominance","name":"Dominance","type":"Mental, Exotic","reference":"B50","category":"Advantage","modifiers":null}
+,"drainingSubstance":{"advId":"drainingSubstance","name":"Draining (@Substance@)","type":"Physical, Supernatural","reference":"B132","category":"Disadvantage","modifiers":null}
+,"dreadItem":{"advId":"dreadItem","name":"Dread (@Item@)","type":"Mental, Supernatural","cost":["-1"],"reference":"B132","category":"Disadvantage","modifiers":null}
+,"dreamer":{"advId":"dreamer","name":"Dreamer","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"dull":{"advId":"dull","name":"Dull","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"duplication":{"advId":"duplication","name":"Duplication","type":"Mental/Physical, Exotic","cost":["35"],"reference":"B50","category":"Advantage","modifiers":null}
+,"dutyDuty":{"advId":"dutyDuty","name":"Duty (@Duty@)","type":"Social","reference":"B133","category":"Disadvantage","modifiers":null}
+,"dwarfism":{"advId":"dwarfism","name":"Dwarfism","type":"Physical","reference":"B19","category":"Disadvantage","modifiers":null}
+,"dyslexia":{"advId":"dyslexia","name":"Dyslexia","type":"Mental","reference":"B134","category":"Disadvantage","modifiers":null}
+,"easyToKill":{"advId":"easyToKill","name":"Easy to Kill","type":"Physical","cost":["-2"],"reference":"B134","category":"Disadvantage","modifiers":null}
+,"easyToRead":{"advId":"easyToRead","name":"Easy to Read","type":"Mental","reference":"B134","category":"Disadvantage","modifiers":null}
+,"eideticMemory":{"advId":"eideticMemory","name":"Eidetic Memory","type":"Mental","reference":"B51","category":"Advantage","modifiers":null}
+,"elasticSkin":{"advId":"elasticSkin","name":"Elastic Skin","type":"Physical, Exotic","reference":"B51","category":"Advantage","modifiers":null}
+,"electrical":{"advId":"electrical","name":"Electrical","type":"Physical, Exotic","reference":"B134","category":"Disadvantage","modifiers":null}
+,"empathy":{"advId":"empathy","name":"Empathy","type":"Mental","reference":"B51","category":"Advantage","modifiers":null}
+,"empathySensitive":{"advId":"empathySensitive","name":"Empathy (Sensitive)","type":"Mental","reference":"B51","category":"Advantage","modifiers":null}
+,"enemyWho":{"advId":"enemyWho","name":"Enemy (@Who@)","type":"Social","reference":"B135","category":"Disadvantage","modifiers":null}
+,"enhancedBlock":{"advId":"enhancedBlock","name":"Enhanced Block","type":"Mental","reference":"B51","category":"Advantage","modifiers":null}
+,"enhancedDodge":{"advId":"enhancedDodge","name":"Enhanced Dodge","type":"Mental","reference":"B51","category":"Advantage","modifiers":null}
+,"enhancedMoveAirNewMove":{"advId":"enhancedMoveAirNewMove","name":"Enhanced Move (Air: @New Move@)","type":"Physical, Exotic","cost":["20"],"reference":"B52","category":"Advantage","modifiers":null}
+,"enhancedMoveGroundNewMove":{"advId":"enhancedMoveGroundNewMove","name":"Enhanced Move (Ground: @New Move@)","type":"Physical, Exotic","cost":["20"],"reference":"B52","category":"Advantage","modifiers":null}
+,"enhancedMoveSpaceNewMove":{"advId":"enhancedMoveSpaceNewMove","name":"Enhanced Move (Space: @New Move@)","type":"Physical, Exotic","cost":["20"],"reference":"B52","category":"Advantage","modifiers":null}
+,"enhancedMoveWaterNewMove":{"advId":"enhancedMoveWaterNewMove","name":"Enhanced Move (Water: @New Move@)","type":"Physical, Exotic","cost":["20"],"reference":"B52","category":"Advantage","modifiers":null}
+,"enhancedParryMeleeWeaponSkill":{"advId":"enhancedParryMeleeWeaponSkill","name":"Enhanced Parry (@Melee weapon skill@)","type":"Mental","cost":["5"],"reference":"B51","category":"Advantage","modifiers":null}
+,"enhancedParryAllParries":{"advId":"enhancedParryAllParries","name":"Enhanced Parry (All parries)","type":"Mental","cost":["10"],"reference":"B51","category":"Advantage","modifiers":null}
+,"enhancedParryBareHands":{"advId":"enhancedParryBareHands","name":"Enhanced Parry (Bare hands)","type":"Mental","cost":["5"],"reference":"B51","category":"Advantage","modifiers":null}
+,"enhancedTimeSense":{"advId":"enhancedTimeSense","name":"Enhanced Time Sense","type":"Mental, Exotic","reference":"B52","category":"Advantage","modifiers":null}
+,"enhancedTracking":{"advId":"enhancedTracking","name":"Enhanced Tracking","type":"Physical, Exotic","cost":["5"],"reference":"B53","category":"Advantage","modifiers":null}
+,"entomophobiaInsects":{"advId":"entomophobiaInsects","name":"Entomophobia (Insects)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"epilipsy":{"advId":"epilipsy","name":"Epilipsy","type":"Physical","reference":"B136","category":"Disadvantage","modifiers":null}
+,"expression":{"advId":"expression","name":"Expression","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"extendedLifespan":{"advId":"extendedLifespan","name":"Extended Lifespan","type":"Physical, Exotic","cost":["2"],"reference":"B53","category":"Advantage","modifiers":null}
+,"extraArm":{"advId":"extraArm","name":"Extra Arm","type":"Physical, Exotic","cost":["10"],"reference":"B53","category":"Advantage","modifiers":null}
+,"extraAttack":{"advId":"extraAttack","name":"Extra Attack","type":"Physical","cost":["25"],"reference":"B53","category":"Advantage","modifiers":null}
+,"extraFatiguePoints":{"advId":"extraFatiguePoints","name":"Extra Fatigue Points","type":"Physical","cost":["3"],"reference":"B16","category":"Advantage","modifiers":null}
+,"extraHead":{"advId":"extraHead","name":"Extra Head","type":"Physical","cost":["15"],"reference":"B54","category":"Advantage","modifiers":null}
+,"extraHitPoints":{"advId":"extraHitPoints","name":"Extra Hit Points","type":"Physical","cost":["2"],"reference":"B16","category":"Advantage","modifiers":null}
+,"extraLegs":{"advId":"extraLegs","name":"Extra Legs","type":"Physical, Exotic","reference":"B54","category":"Advantage","modifiers":null}
+,"extraLife":{"advId":"extraLife","name":"Extra Life","type":"Mental, Exotic","cost":["25"],"reference":"B55","category":"Advantage","modifiers":null}
+,"extraMouth":{"advId":"extraMouth","name":"Extra Mouth","type":"Physical, Exotic","cost":["5"],"reference":"B55","category":"Advantage","modifiers":null}
+,"extraSleep":{"advId":"extraSleep","name":"Extra Sleep","type":"Physical","cost":["-2"],"reference":"B136","category":"Disadvantage","modifiers":null}
+,"fanaticismGroupOrIdeal":{"advId":"fanaticismGroupOrIdeal","name":"Fanaticism (@Group or ideal@)","type":"Mental","reference":"B136","category":"Disadvantage","modifiers":null}
+,"fashionSense":{"advId":"fashionSense","name":"Fashion Sense","type":"Mental","reference":"B21","category":"Advantage","modifiers":null}
+,"fat":{"advId":"fat","name":"Fat","type":"Physical","reference":"B19","category":"Disadvantage","modifiers":null}
+,"fearfulness":{"advId":"fearfulness","name":"Fearfulness","type":"Mental","cost":["-2"],"reference":"B136","category":"Disadvantage","modifiers":null}
+,"fearlessness":{"advId":"fearlessness","name":"Fearlessness","type":"Mental","cost":["2"],"reference":"B55","category":"Advantage","modifiers":null}
+,"fewerFatiguePoints":{"advId":"fewerFatiguePoints","name":"Fewer Fatigue Points","type":"Physical","cost":["-3"],"reference":"B16","category":"Attribute","modifiers":null}
+,"fewerHitPoints":{"advId":"fewerHitPoints","name":"Fewer Hit Points","type":"Physical","cost":["-2"],"reference":"B16","category":"Attribute","modifiers":null}
+,"filterLungs":{"advId":"filterLungs","name":"Filter Lungs","type":"Physical, Exotic","reference":"B55","category":"Advantage","modifiers":null}
+,"fit":{"advId":"fit","name":"Fit","type":"Physical","reference":"B55","category":"Advantage","modifiers":null}
+,"fitVery":{"advId":"fitVery","name":"Fit, Very","type":"Physical","reference":"B55","category":"Advantage","modifiers":null}
+,"flashbacksCrippling3DMinutes":{"advId":"flashbacksCrippling3DMinutes","name":"Flashbacks (Crippling, 3D minutes)","type":"Physical","reference":"B136","category":"Disadvantage","modifiers":null}
+,"flashbacksMild22DSeconds":{"advId":"flashbacksMild22DSeconds","name":"Flashbacks (Mild, -2, 2D seconds)","type":"Physical","reference":"B136","category":"Disadvantage","modifiers":null}
+,"flashbacksSevere51DMinutes":{"advId":"flashbacksSevere51DMinutes","name":"Flashbacks (Severe, -5, 1D minutes)","type":"Physical","reference":"B136","category":"Disadvantage","modifiers":null}
+,"flexibility":{"advId":"flexibility","name":"Flexibility","type":"Physical","reference":"B56","category":"Advantage","modifiers":null}
+,"flexibilityDoubleJointed":{"advId":"flexibilityDoubleJointed","name":"Flexibility (Double-Jointed)","type":"Physical","reference":"B56","category":"Advantage","modifiers":null}
+,"flight":{"advId":"flight","name":"Flight","type":"Physical, Exotic","reference":"B56","category":"Advantage","modifiers":null}
+,"fragileBrittle":{"advId":"fragileBrittle","name":"Fragile (Brittle)","type":"Physical, Exotic","reference":"B136","category":"Disadvantage","modifiers":null}
+,"fragileCombustible":{"advId":"fragileCombustible","name":"Fragile (Combustible)","type":"Physical, Exotic","reference":"B136","category":"Disadvantage","modifiers":null}
+,"fragileExplosive":{"advId":"fragileExplosive","name":"Fragile (Explosive)","type":"Physical, Exotic","reference":"B137","category":"Disadvantage","modifiers":null}
+,"fragileFlammable":{"advId":"fragileFlammable","name":"Fragile (Flammable)","type":"Physical, Exotic","reference":"B137","category":"Disadvantage","modifiers":null}
+,"fragileUnnatural":{"advId":"fragileUnnatural","name":"Fragile (Unnatural)","type":"Physical, Exotic","reference":"B137","category":"Disadvantage","modifiers":null}
+,"frightensAnimals":{"advId":"frightensAnimals","name":"Frightens Animals","type":"Mental, Supernatural","reference":"B137","category":"Disadvantage","modifiers":null}
+,"fur":{"advId":"fur","name":"Fur","type":"Physical, Exotic","reference":"B101","category":"Perk","modifiers":null}
+,"gExperienceAll":{"advId":"gExperienceAll","name":"G-Experience (All)","type":"Mental","reference":"B57","category":"Advantage","modifiers":null}
+,"gExperience":{"advId":"gExperience","name":"G-Experience","type":"Mental","cost":["1"],"reference":"B57","category":"Advantage","modifiers":null}
+,"gIntolerance01GIncrement":{"advId":"gIntolerance01GIncrement","name":"G-Intolerance (0.1G increment)","type":"Physical","reference":"B137","category":"Disadvantage","modifiers":null}
+,"gIntolerance005GIncrement":{"advId":"gIntolerance005GIncrement","name":"G-Intolerance (0.05G increment)","type":"Physical","reference":"B137","category":"Disadvantage","modifiers":null}
+,"gadgeteer":{"advId":"gadgeteer","name":"Gadgeteer","type":"Mental","reference":"B57","category":"Advantage","modifiers":null}
+,"gigantism":{"advId":"gigantism","name":"Gigantism","type":"Physical","reference":"B20","category":"Disadvantage","modifiers":null}
+,"gizmo":{"advId":"gizmo","name":"Gizmo","type":"Mental","cost":["5"],"reference":"B57","category":"Advantage","modifiers":null}
+,"gluttony":{"advId":"gluttony","name":"Gluttony","type":"Mental","reference":"B137","category":"Disadvantage","modifiers":null}
+,"greed":{"advId":"greed","name":"Greed","type":"Mental","reference":"B137","category":"Disadvantage","modifiers":null}
+,"growth":{"advId":"growth","name":"Growth","type":"Physical, Exotic","cost":["10"],"reference":"B58","category":"Advantage","modifiers":null}
+,"guiltComplex":{"advId":"guiltComplex","name":"Guilt Complex","type":"Mental","reference":"B137","category":"Disadvantage","modifiers":null}
+,"gullibility":{"advId":"gullibility","name":"Gullibility","type":"Mental","reference":"B137","category":"Disadvantage","modifiers":null}
+,"gunslinger":{"advId":"gunslinger","name":"Gunslinger","type":"Mental","reference":"B58","category":"Advantage","modifiers":null}
+,"habit":{"advId":"habit","name":"Habit","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"hamFisted":{"advId":"hamFisted","name":"Ham-Fisted","type":"Physical","reference":"B138","category":"Disadvantage","modifiers":null}
+,"hamFistedSevere":{"advId":"hamFistedSevere","name":"Ham-Fisted (Severe)","type":"Physical","reference":"B138","category":"Disadvantage","modifiers":null}
+,"hardOfHearing":{"advId":"hardOfHearing","name":"Hard of Hearing","type":"Physical","reference":"B138","category":"Disadvantage","modifiers":null}
+,"hardToKill":{"advId":"hardToKill","name":"Hard to Kill","type":"Physical","cost":["2"],"reference":"B58","category":"Advantage","modifiers":null}
+,"hardToSubdue":{"advId":"hardToSubdue","name":"Hard to Subdue","type":"Physical","cost":["2"],"reference":"B59","category":"Advantage","modifiers":null}
+,"healing":{"advId":"healing","name":"Healing","type":"Mental, Exotic","reference":"B59","category":"Advantage","modifiers":null}
+,"heliophobiaSun":{"advId":"heliophobiaSun","name":"Heliophobia (Sun)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"hemophilia":{"advId":"hemophilia","name":"Hemophilia","type":"Physical","reference":"B138","category":"Disadvantage","modifiers":null}
+,"hemophobiaBlood":{"advId":"hemophobiaBlood","name":"Hemophobia (Blood)","type":"Mental","reference":"B149","category":"Disadvantage","modifiers":null}
+,"hermaphromorph":{"advId":"hermaphromorph","name":"Hermaphromorph","type":"Physical, Exotic","reference":"B59","category":"Advantage","modifiers":null}
+,"herpetophobiaReptiles":{"advId":"herpetophobiaReptiles","name":"Herpetophobia (Reptiles)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"hidebound":{"advId":"hidebound","name":"Hidebound","type":"Mental","reference":"B138","category":"Disadvantage","modifiers":null}
+,"highManualDexterity":{"advId":"highManualDexterity","name":"High Manual Dexterity","type":"Physical","cost":["5"],"reference":"B59","category":"Advantage","modifiers":null}
+,"highPainThreshold":{"advId":"highPainThreshold","name":"High Pain Threshold","type":"Physical","reference":"B59","category":"Advantage","modifiers":null}
+,"highTl":{"advId":"highTl","name":"High TL","type":"Mental","cost":["5"],"reference":"B23","category":"Advantage","modifiers":null}
+,"higherPurpose":{"advId":"higherPurpose","name":"Higher Purpose","type":"Mental, Exotic","reference":"B59","category":"Advantage","modifiers":null}
+,"honestFace":{"advId":"honestFace","name":"Honest Face","type":"Physical","reference":"B101","category":"Perk","modifiers":null}
+,"honesty":{"advId":"honesty","name":"Honesty","type":"Mental","reference":"B138","category":"Disadvantage","modifiers":null}
+,"hoplophobiaWeapons":{"advId":"hoplophobiaWeapons","name":"Hoplophobia (Weapons)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"horizontal":{"advId":"horizontal","name":"Horizontal","type":"Physical, Exotic","reference":"B139","category":"Disadvantage","modifiers":null}
+,"horribleHangovers":{"advId":"horribleHangovers","name":"Horrible Hangovers","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"humble":{"advId":"humble","name":"Humble","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"hunchback":{"advId":"hunchback","name":"Hunchback","type":"Physical","reference":"B139","category":"Disadvantage","modifiers":null}
+,"hyperspectralVision":{"advId":"hyperspectralVision","name":"Hyperspectral Vision","type":"Physical, Exotic","reference":"B60","category":"Advantage","modifiers":null}
+,"illuminated":{"advId":"illuminated","name":"Illuminated","type":"Mental, Supernatural","reference":"B60","category":"Advantage","modifiers":null}
+,"imaginative":{"advId":"imaginative","name":"Imaginative","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"improvedGTolerance":{"advId":"improvedGTolerance","name":"Improved G-tolerance","type":"Physical","reference":"B60","category":"Advantage","modifiers":null}
+,"impulsiveness":{"advId":"impulsiveness","name":"Impulsiveness","type":"Mental","reference":"B139","category":"Disadvantage","modifiers":null}
+,"incompetenceSkill":{"advId":"incompetenceSkill","name":"Incompetence (@Skill@)","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"increasedBasicMove":{"advId":"increasedBasicMove","name":"Increased Basic Move","type":"Physical","cost":["5"],"reference":"B17","category":"Advantage","modifiers":null}
+,"increasedBasicSpeed":{"advId":"increasedBasicSpeed","name":"Increased Basic Speed","type":"Physical","cost":["5"],"reference":"B17","category":"Advantage","modifiers":null}
+,"increasedConsumption":{"advId":"increasedConsumption","name":"Increased Consumption","type":"Physical","reference":"B139","category":"Disadvantage","modifiers":null}
+,"increasedDexterity":{"advId":"increasedDexterity","name":"Increased Dexterity","type":"Physical","cost":["20"],"reference":"B15","category":"Advantage","modifiers":null}
+,"increasedHealth":{"advId":"increasedHealth","name":"Increased Health","type":"Physical","cost":["10"],"reference":"B14","category":"Advantage","modifiers":null}
+,"increasedIntelligence":{"advId":"increasedIntelligence","name":"Increased Intelligence","type":"Mental","cost":["20"],"reference":"B15","category":"Advantage","modifiers":null}
+,"increasedLifeSupportExtremeColdBelow0":{"advId":"increasedLifeSupportExtremeColdBelow0","name":"Increased Life Support (Extreme Cold, below 0)","type":"Physical, Exotic","reference":"B139","category":"Disadvantage","modifiers":null}
+,"increasedLifeSupportExtremeHeatAbove200":{"advId":"increasedLifeSupportExtremeHeatAbove200","name":"Increased Life Support (Extreme Heat, above 200)","type":"Physical, Exotic","reference":"B139","category":"Disadvantage","modifiers":null}
+,"increasedLifeSupportMassive":{"advId":"increasedLifeSupportMassive","name":"Increased Life Support (Massive)","type":"Physical, Exotic","reference":"B139","category":"Disadvantage","modifiers":null}
+,"increasedLifeSupportPressurized":{"advId":"increasedLifeSupportPressurized","name":"Increased Life Support (Pressurized)","type":"Physical, Exotic","reference":"B139","category":"Disadvantage","modifiers":null}
+,"increasedLifeSupportRadioactive":{"advId":"increasedLifeSupportRadioactive","name":"Increased Life Support (Radioactive)","type":"Physical, Exotic","reference":"B139","category":"Disadvantage","modifiers":null}
+,"increasedPerception":{"advId":"increasedPerception","name":"Increased Perception","type":"Mental/Physical","cost":["5"],"reference":"B16","category":"Advantage","modifiers":null}
+,"increasedStrength":{"advId":"increasedStrength","name":"Increased Strength","type":"Physical","cost":["10"],"reference":"B14","category":"Advantage","modifiers":null}
+,"increasedWill":{"advId":"increasedWill","name":"Increased Will","type":"Mental","cost":["5"],"reference":"B16","category":"Advantage","modifiers":null}
+,"incurious":{"advId":"incurious","name":"Incurious","type":"Mental","reference":"B140","category":"Disadvantage","modifiers":null}
+,"indecisive":{"advId":"indecisive","name":"Indecisive","type":"Mental","reference":"B140","category":"Disadvantage","modifiers":null}
+,"independentIncome":{"advId":"independentIncome","name":"Independent Income","type":"Social","cost":["1"],"reference":"B26","category":"Advantage","modifiers":null}
+,"indomitable":{"advId":"indomitable","name":"Indomitable","type":"Mental","reference":"B60","category":"Advantage","modifiers":null}
+,"infectiousAttack":{"advId":"infectiousAttack","name":"Infectious Attack","type":"Physical, Supernatural","reference":"B140","category":"Disadvantage","modifiers":null}
+,"infravision":{"advId":"infravision","name":"Infravision","type":"Physical, Exotic","reference":"B60","category":"Advantage","modifiers":null}
+,"injuryToleranceDiffuse":{"advId":"injuryToleranceDiffuse","name":"Injury Tolerance (Diffuse)","type":"Physical, Exotic","reference":"B60","category":"Advantage","modifiers":null}
+,"injuryToleranceHomogenous":{"advId":"injuryToleranceHomogenous","name":"Injury Tolerance (Homogenous)","type":"Physical, Exotic","reference":"B60","category":"Advantage","modifiers":null}
+,"injuryToleranceNoBlood":{"advId":"injuryToleranceNoBlood","name":"Injury Tolerance (No Blood)","type":"Physical, Exotic","reference":"B61","category":"Advantage","modifiers":null}
+,"injuryToleranceNoBrain":{"advId":"injuryToleranceNoBrain","name":"Injury Tolerance (No Brain)","type":"Physical, Exotic","reference":"B61","category":"Advantage","modifiers":null}
+,"injuryToleranceNoEyes":{"advId":"injuryToleranceNoEyes","name":"Injury Tolerance (No Eyes)","type":"Physical, Exotic","reference":"B61","category":"Advantage","modifiers":null}
+,"injuryToleranceNoHead":{"advId":"injuryToleranceNoHead","name":"Injury Tolerance (No Head)","type":"Physical, Exotic","reference":"B61","category":"Advantage","modifiers":null}
+,"injuryToleranceNoNeck":{"advId":"injuryToleranceNoNeck","name":"Injury Tolerance (No Neck)","type":"Physical, Exotic","reference":"B61","category":"Advantage","modifiers":null}
+,"injuryToleranceNoVitals":{"advId":"injuryToleranceNoVitals","name":"Injury Tolerance (No Vitals)","type":"Physical, Exotic","reference":"B61","category":"Advantage","modifiers":null}
+,"injuryToleranceUnliving":{"advId":"injuryToleranceUnliving","name":"Injury Tolerance (Unliving)","type":"Physical, Exotic","reference":"B61","category":"Advantage","modifiers":null}
+,"innateAttackBurn":{"advId":"innateAttackBurn","name":"Innate Attack (Burn)","type":"Physical, Exotic","cost":["5"],"reference":"B61","category":"Advantage","modifiers":null}
+,"innateAttackCorrosion":{"advId":"innateAttackCorrosion","name":"Innate Attack (Corrosion)","type":"Physical, Exotic","cost":["10"],"reference":"B61","category":"Advantage","modifiers":null}
+,"innateAttackCrush":{"advId":"innateAttackCrush","name":"Innate Attack (Crush)","type":"Physical, Exotic","cost":["5"],"reference":"B61","category":"Advantage","modifiers":null}
+,"innateAttackCut":{"advId":"innateAttackCut","name":"Innate Attack (Cut)","type":"Physical, Exotic","cost":["7"],"reference":"B61","category":"Advantage","modifiers":null}
+,"innateAttackFatigue":{"advId":"innateAttackFatigue","name":"Innate Attack (Fatigue)","type":"Physical, Exotic","cost":["10"],"reference":"B61","category":"Advantage","modifiers":null}
+,"innateAttackHugePierce":{"advId":"innateAttackHugePierce","name":"Innate Attack (Huge Pierce)","type":"Physical, Exotic","cost":["8"],"reference":"B62","category":"Advantage","modifiers":null}
+,"innateAttackImpaling":{"advId":"innateAttackImpaling","name":"Innate Attack (Impaling)","type":"Physical, Exotic","cost":["8"],"reference":"B61","category":"Advantage","modifiers":null}
+,"innateAttackLargePierce":{"advId":"innateAttackLargePierce","name":"Innate Attack (Large Pierce)","type":"Physical, Exotic","cost":["6"],"reference":"B62","category":"Advantage","modifiers":null}
+,"innateAttackPiercing":{"advId":"innateAttackPiercing","name":"Innate Attack (Piercing)","type":"Physical, Exotic","cost":["5"],"reference":"B62","category":"Advantage","modifiers":null}
+,"innateAttackSmallPierce":{"advId":"innateAttackSmallPierce","name":"Innate Attack (Small Pierce)","type":"Physical, Exotic","cost":["3"],"reference":"B62","category":"Advantage","modifiers":null}
+,"innateAttackToxic":{"advId":"innateAttackToxic","name":"Innate Attack (Toxic)","type":"Physical, Exotic","cost":["4"],"reference":"B62","category":"Advantage","modifiers":null}
+,"innumerate":{"advId":"innumerate","name":"Innumerate","type":"Mental","reference":"B140","category":"Disadvantage","modifiers":null}
+,"insomniacMild":{"advId":"insomniacMild","name":"Insomniac (Mild)","type":"Physical","reference":"B140","category":"Disadvantage","modifiers":null}
+,"insomniacSevere":{"advId":"insomniacSevere","name":"Insomniac (Severe)","type":"Physical","reference":"B140","category":"Disadvantage","modifiers":null}
+,"insubstantiality":{"advId":"insubstantiality","name":"Insubstantiality","type":"Mental/Physical, Exotic","reference":"B62","category":"Advantage","modifiers":null}
+,"intoleranceClassEthnicityNationalityReligionSexOrSpecies":{"advId":"intoleranceClassEthnicityNationalityReligionSexOrSpecies","name":"Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)","type":"Mental","reference":"B140","category":"Disadvantage","modifiers":null}
+,"intuition":{"advId":"intuition","name":"Intuition","type":"Mental","reference":"B63","category":"Advantage","modifiers":null}
+,"invertebrate":{"advId":"invertebrate","name":"Invertebrate","type":"Physical, Exotic","reference":"B140","category":"Disadvantage","modifiers":null}
+,"invisibility":{"advId":"invisibility","name":"Invisibility","type":"Mental/Physical, Exotic","reference":"B63","category":"Advantage","modifiers":null}
+,"jealousy":{"advId":"jealousy","name":"Jealousy","type":"Mental","reference":"B140","category":"Disadvantage","modifiers":null}
+,"jumperWorldTimeSpirit":{"advId":"jumperWorldTimeSpirit","name":"Jumper (@World/Time/Spirit@)","type":"Mental, Supernatural","reference":"B64","category":"Advantage","modifiers":null}
+,"killjoy":{"advId":"killjoy","name":"Killjoy","type":"Physical","reference":"B140","category":"Disadvantage","modifiers":null}
+,"kleptomania":{"advId":"kleptomania","name":"Kleptomania","type":"Mental","reference":"B141","category":"Disadvantage","modifiers":null}
+,"klutz":{"advId":"klutz","name":"Klutz","type":"Physical","reference":"B141","category":"Disadvantage","modifiers":null}
+,"lameCrippledLegs":{"advId":"lameCrippledLegs","name":"Lame (Crippled Legs)","type":"Physical","reference":"B141","category":"Disadvantage","modifiers":null}
+,"lameLegless":{"advId":"lameLegless","name":"Lame (Legless)","type":"Physical","reference":"B141","category":"Disadvantage","modifiers":null}
+,"lameMissingLegs":{"advId":"lameMissingLegs","name":"Lame (Missing Legs)","type":"Physical","reference":"B141","category":"Disadvantage","modifiers":null}
+,"lameParaplegic":{"advId":"lameParaplegic","name":"Lame (Paraplegic)","type":"Physical","reference":"B141","category":"Disadvantage","modifiers":null}
+,"languageTalent":{"advId":"languageTalent","name":"Language Talent","type":"Mental","reference":"B65","category":"Advantage","modifiers":null}
+,"languageLanguage":{"advId":"languageLanguage","name":"Language: @Language@","type":"Mental","reference":"B24","category":"Advantage","modifiers":null}
+,"laziness":{"advId":"laziness","name":"Laziness","type":"Mental","reference":"B142","category":"Disadvantage","modifiers":null}
+,"lecherousness":{"advId":"lecherousness","name":"Lecherousness","type":"Mental","reference":"B142","category":"Disadvantage","modifiers":null}
+,"legalEnforcementPowers":{"advId":"legalEnforcementPowers","name":"Legal Enforcement Powers","type":"Social","reference":"B65","category":"Advantage","modifiers":null}
+,"legalImmunity":{"advId":"legalImmunity","name":"Legal Immunity","type":"Social","reference":"B65","category":"Advantage","modifiers":null}
+,"lessSleep":{"advId":"lessSleep","name":"Less Sleep","type":"Physical","cost":["2"],"reference":"B65","category":"Advantage","modifiers":null}
+,"lifebane":{"advId":"lifebane","name":"Lifebane","type":"Mental, Supernatural","reference":"B142","category":"Disadvantage","modifiers":null}
+,"liftingSt":{"advId":"liftingSt","name":"Lifting ST","type":"Physical, Exotic","cost":["3"],"reference":"B65","category":"Advantage","modifiers":null}
+,"lightSleeper":{"advId":"lightSleeper","name":"Light Sleeper","type":"Physical","reference":"B142","category":"Disadvantage","modifiers":null}
+,"lightningCalculator":{"advId":"lightningCalculator","name":"Lightning Calculator","type":"Mental","reference":"B66","category":"Advantage","modifiers":null}
+,"likeItem":{"advId":"likeItem","name":"Like @Item@","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"loner":{"advId":"loner","name":"Loner","type":"Mental","reference":"B142","category":"Disadvantage","modifiers":null}
+,"longevity":{"advId":"longevity","name":"Longevity","type":"Physical","reference":"B66","category":"Advantage","modifiers":null}
+,"lowEmpathy":{"advId":"lowEmpathy","name":"Low Empathy","type":"Mental","reference":"B142","category":"Disadvantage","modifiers":null}
+,"lowPainThreshold":{"advId":"lowPainThreshold","name":"Low Pain Threshold","type":"Physical","reference":"B142","category":"Disadvantage","modifiers":null}
+,"lowSelfImage":{"advId":"lowSelfImage","name":"Low Self-Image","type":"Mental","reference":"B143","category":"Disadvantage","modifiers":null}
+,"lowTl":{"advId":"lowTl","name":"Low TL","type":"Social","cost":["-5"],"reference":"B22","category":"Disadvantage","modifiers":null}
+,"luck":{"advId":"luck","name":"Luck","type":"Mental","reference":"B66","category":"Advantage","modifiers":null}
+,"luckExtraordinary":{"advId":"luckExtraordinary","name":"Luck, Extraordinary","type":"Mental","reference":"B66","category":"Advantage","modifiers":null}
+,"luckRidiculous":{"advId":"luckRidiculous","name":"Luck, Ridiculous","type":"Mental","reference":"B66","category":"Advantage","modifiers":null}
+,"luckSuper":{"advId":"luckSuper","name":"Luck, Super","type":"Mental, Supernatural","reference":"B89","category":"Advantage","modifiers":null}
+,"lunacy":{"advId":"lunacy","name":"Lunacy","type":"Physical","reference":"B143","category":"Disadvantage","modifiers":null}
+,"magery":{"advId":"magery","name":"Magery","type":"Mental, Supernatural","cost":["10"],"reference":"B66","category":"Advantage","modifiers":null}
+,"magicResistance":{"advId":"magicResistance","name":"Magic Resistance","type":"Physical","cost":["2"],"reference":"B67","category":"Advantage","modifiers":null}
+,"magicSusceptibility":{"advId":"magicSusceptibility","name":"Magic Susceptibility","type":"Mental, Supernatural","cost":["-3"],"reference":"B143","category":"Disadvantage","modifiers":null}
+,"maintenance":{"advId":"maintenance","name":"Maintenance","type":"Physical","reference":"B143","category":"Disadvantage","modifiers":null}
+,"manaDamper":{"advId":"manaDamper","name":"Mana Damper","type":"Mental, Supernatural","cost":["10"],"reference":"B67","category":"Advantage","modifiers":null}
+,"manaEnhancer":{"advId":"manaEnhancer","name":"Mana Enhancer","type":"Mental, Supernatural","cost":["50"],"reference":"B68","category":"Advantage","modifiers":null}
+,"manaphobiaMagicCommon":{"advId":"manaphobiaMagicCommon","name":"Manaphobia (Magic, Common)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"manaphobiaMagicUncommon":{"advId":"manaphobiaMagicUncommon","name":"Manaphobia (Magic, Uncommon)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"manaphobiaMagicUnknown":{"advId":"manaphobiaMagicUnknown","name":"Manaphobia (Magic, Unknown)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"manicDepressive":{"advId":"manicDepressive","name":"Manic-Depressive","type":"Mental","reference":"B143","category":"Disadvantage","modifiers":null}
+,"medium":{"advId":"medium","name":"Medium","type":"Mental, Supernatural","reference":"B68","category":"Advantage","modifiers":null}
+,"megalomania":{"advId":"megalomania","name":"Megalomania","type":"Mental","reference":"B144","category":"Disadvantage","modifiers":null}
+,"metabolismControl":{"advId":"metabolismControl","name":"Metabolism Control","type":"Physical","cost":["5"],"reference":"B68","category":"Advantage","modifiers":null}
+,"microscopicVision":{"advId":"microscopicVision","name":"Microscopic Vision","type":"Physical, Exotic","cost":["5"],"reference":"B68","category":"Advantage","modifiers":null}
+,"mimicry":{"advId":"mimicry","name":"Mimicry","type":"Mental, Exotic","reference":"B68","category":"Advantage","modifiers":null}
+,"mindControl":{"advId":"mindControl","name":"Mind Control","type":"Mental, Exotic","reference":"B68","category":"Advantage","modifiers":null}
+,"mindProbe":{"advId":"mindProbe","name":"Mind Probe","type":"Mental, Exotic","reference":"B69","category":"Advantage","modifiers":null}
+,"mindReading":{"advId":"mindReading","name":"Mind Reading","type":"Mental, Exotic","reference":"B69","category":"Advantage","modifiers":null}
+,"mindShield":{"advId":"mindShield","name":"Mind Shield","type":"Mental, Exotic","cost":["4"],"reference":"B70","category":"Advantage","modifiers":null}
+,"mindlink":{"advId":"mindlink","name":"Mindlink","type":"Mental, Supernatural","reference":"B70","category":"Advantage","modifiers":null}
+,"minorAddiction":{"advId":"minorAddiction","name":"Minor Addiction","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"minorHandicap":{"advId":"minorHandicap","name":"Minor Handicap","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"miserliness":{"advId":"miserliness","name":"Miserliness","type":"Mental","reference":"B144","category":"Disadvantage","modifiers":null}
+,"missingDigitFinger":{"advId":"missingDigitFinger","name":"Missing Digit (Finger)","type":"Physical","reference":"B144","category":"Disadvantage","modifiers":null}
+,"missingDigitThumb":{"advId":"missingDigitThumb","name":"Missing Digit (Thumb)","type":"Physical","reference":"B144","category":"Disadvantage","modifiers":null}
+,"mistakenIdentity":{"advId":"mistakenIdentity","name":"Mistaken Identity","type":"Physical","reference":"B21","category":"Disadvantage","modifiers":null}
+,"modularAbilitiesChipSlots":{"advId":"modularAbilitiesChipSlots","name":"Modular Abilities (Chip Slots)","type":"Mental, Exotic","cost":["3"],"reference":"B71","category":"Advantage","modifiers":null}
+,"modularAbilitiesComputerBrain":{"advId":"modularAbilitiesComputerBrain","name":"Modular Abilities (Computer Brain)","type":"Mental, Exotic","cost":["4"],"reference":"B71","category":"Advantage","modifiers":null}
+,"modularAbilitiesCosmicPower":{"advId":"modularAbilitiesCosmicPower","name":"Modular Abilities (Cosmic Power)","type":"Physical, Exotic","cost":["10"],"reference":"B71","category":"Advantage","modifiers":null}
+,"modularAbilitiesSuperMemorization":{"advId":"modularAbilitiesSuperMemorization","name":"Modular Abilities (Super-Memorization)","type":"Mental, Exotic","cost":["3"],"reference":"B71","category":"Advantage","modifiers":null}
+,"motionSickness":{"advId":"motionSickness","name":"Motion Sickness","type":"Physical","reference":"B144","category":"Disadvantage","modifiers":null}
+,"mundaneBackground":{"advId":"mundaneBackground","name":"Mundane Background","type":"Mental","reference":"B144","category":"Disadvantage","modifiers":null}
+,"mysophobiaDirt":{"advId":"mysophobiaDirt","name":"Mysophobia (Dirt)","type":"Mental","reference":"B149","category":"Disadvantage","modifiers":null}
+,"necrophobiaDeath":{"advId":"necrophobiaDeath","name":"Necrophobia (Death)","type":"Mental","reference":"B149","category":"Disadvantage","modifiers":null}
+,"nervousStomach":{"advId":"nervousStomach","name":"Nervous Stomach","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"neurologicalDisorderCrippling":{"advId":"neurologicalDisorderCrippling","name":"Neurological Disorder (Crippling)","type":"Physical","reference":"B144","category":"Disadvantage","modifiers":null}
+,"neurologicalDisorderMild":{"advId":"neurologicalDisorderMild","name":"Neurological Disorder (Mild)","type":"Physical","reference":"B144","category":"Disadvantage","modifiers":null}
+,"neurologicalDisorderSevere":{"advId":"neurologicalDisorderSevere","name":"Neurological Disorder (Severe)","type":"Physical","reference":"B144","category":"Disadvantage","modifiers":null}
+,"neutered":{"advId":"neutered","name":"Neutered","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"neutralizePsi":{"advId":"neutralizePsi","name":"Neutralize (Psi)","type":"Mental, Exotic","reference":"B71","category":"Advantage","modifiers":null}
+,"nictitatingMembrane":{"advId":"nictitatingMembrane","name":"Nictitating Membrane","type":"Physical, Exotic","cost":["1"],"reference":"B71","category":"Advantage","modifiers":null}
+,"nightBlindness":{"advId":"nightBlindness","name":"Night Blindness","type":"Physical","reference":"B144","category":"Disadvantage","modifiers":null}
+,"nightVision":{"advId":"nightVision","name":"Night Vision","type":"Physical","cost":["1"],"reference":"B71","category":"Advantage","modifiers":null}
+,"nightmares":{"advId":"nightmares","name":"Nightmares","type":"Mental","reference":"B144","category":"Disadvantage","modifiers":null}
+,"noDepthPerception":{"advId":"noDepthPerception","name":"No Depth Perception","type":"Physical","reference":"B144","category":"Disadvantage","modifiers":null}
+,"noFineManipulators":{"advId":"noFineManipulators","name":"No Fine Manipulators","type":"Physical","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noHangover":{"advId":"noHangover","name":"No Hangover","type":"Physical","reference":"B101","category":"Perk","modifiers":null}
+,"noLegsAerial":{"advId":"noLegsAerial","name":"No Legs (Aerial)","type":"Physical, Exotic","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noLegsAquatic":{"advId":"noLegsAquatic","name":"No Legs (Aquatic)","type":"Physical, Exotic","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noLegsBounces":{"advId":"noLegsBounces","name":"No Legs (Bounces)","type":"Physical, Exotic","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noLegsRolls":{"advId":"noLegsRolls","name":"No Legs (Rolls)","type":"Physical, Exotic","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noLegsSemiAquatic":{"advId":"noLegsSemiAquatic","name":"No Legs (Semi-Aquatic)","type":"Physical, Exotic","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noLegsSessile":{"advId":"noLegsSessile","name":"No Legs (Sessile)","type":"Physical, Exotic","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noLegsSlithers":{"advId":"noLegsSlithers","name":"No Legs (Slithers)","type":"Physical, Exotic","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noLegsTracked":{"advId":"noLegsTracked","name":"No Legs (Tracked)","type":"Physical, Exotic","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noLegsWheeled":{"advId":"noLegsWheeled","name":"No Legs (Wheeled)","type":"Physical, Exotic","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noManipulators":{"advId":"noManipulators","name":"No Manipulators","type":"Physical","reference":"B145","category":"Disadvantage","modifiers":null}
+,"noSenseOfHumor":{"advId":"noSenseOfHumor","name":"No Sense of Humor","type":"Physical","reference":"B146","category":"Disadvantage","modifiers":null}
+,"noSenseOfSmellTaste":{"advId":"noSenseOfSmellTaste","name":"No Sense of Smell/Taste","type":"Physical","reference":"B146","category":"Disadvantage","modifiers":null}
+,"nocturnal":{"advId":"nocturnal","name":"Nocturnal","type":"Physical, Exotic","reference":"B146","category":"Disadvantage","modifiers":null}
+,"noisy":{"advId":"noisy","name":"Noisy","type":"Physical","cost":["-2"],"reference":"B146","category":"Disadvantage","modifiers":null}
+,"nonIcongraphic":{"advId":"nonIcongraphic","name":"Non-Icongraphic","type":"Mental","reference":"B146","category":"Disadvantage","modifiers":null}
+,"nosy":{"advId":"nosy","name":"Nosy","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"numb":{"advId":"numb","name":"Numb","type":"Physical","reference":"B146","category":"Disadvantage","modifiers":null}
+,"oblivious":{"advId":"oblivious","name":"Oblivious","type":"Mental","reference":"B146","category":"Disadvantage","modifiers":null}
+,"obscureSense":{"advId":"obscureSense","name":"Obscure (@Sense@)","type":"Physical, Exotic","cost":["2"],"reference":"B72","category":"Advantage","modifiers":null}
+,"obsession":{"advId":"obsession","name":"Obsession","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"odiousPersonalHabit":{"advId":"odiousPersonalHabit","name":"Odious Personal Habit","type":"Physical","reference":"B22","category":"Disadvantage","modifiers":null}
+,"onTheEdge":{"advId":"onTheEdge","name":"On the Edge","type":"Mental","reference":"B146","category":"Disadvantage","modifiers":null}
+,"oneArm":{"advId":"oneArm","name":"One Arm","type":"Physical","reference":"B147","category":"Disadvantage","modifiers":null}
+,"oneEye":{"advId":"oneEye","name":"One Eye","type":"Physical","reference":"B147","category":"Disadvantage","modifiers":null}
+,"oneHand":{"advId":"oneHand","name":"One Hand","type":"Physical","reference":"B147","category":"Disadvantage","modifiers":null}
+,"oracle":{"advId":"oracle","name":"Oracle","type":"Mental, Supernatural","reference":"B72","category":"Advantage","modifiers":null}
+,"overconfidence":{"advId":"overconfidence","name":"Overconfidence","type":"Mental","reference":"B148","category":"Disadvantage","modifiers":null}
+,"overweight":{"advId":"overweight","name":"Overweight","type":"Physical","reference":"B19","category":"Quirk","modifiers":null}
+,"pacifismCannotHarmInnocents":{"advId":"pacifismCannotHarmInnocents","name":"Pacifism: Cannot Harm Innocents","type":"Mental","reference":"B148","category":"Disadvantage","modifiers":null}
+,"pacifismCannotKill":{"advId":"pacifismCannotKill","name":"Pacifism: Cannot Kill","type":"Mental","reference":"B148","category":"Disadvantage","modifiers":null}
+,"pacifismReluctantKiller":{"advId":"pacifismReluctantKiller","name":"Pacifism: Reluctant Killer","type":"Mental","reference":"B148","category":"Disadvantage","modifiers":null}
+,"pacifismSelfDefenseOnly":{"advId":"pacifismSelfDefenseOnly","name":"Pacifism: Self-Defense Only","type":"Mental","reference":"B148","category":"Disadvantage","modifiers":null}
+,"pacifismTotalNonviolence":{"advId":"pacifismTotalNonviolence","name":"Pacifism: Total Nonviolence","type":"Mental","reference":"B148","category":"Disadvantage","modifiers":null}
+,"parabolicHearing":{"advId":"parabolicHearing","name":"Parabolic Hearing","type":"Physical, Exotic","cost":["4"],"reference":"B72","category":"Advantage","modifiers":null}
+,"paranoia":{"advId":"paranoia","name":"Paranoia","type":"Mental","reference":"B148","category":"Disadvantage","modifiers":null}
+,"patron":{"advId":"patron","name":"Patron","type":"Social","reference":"B72","category":"Advantage","modifiers":null}
+,"payloadLoad":{"advId":"payloadLoad","name":"Payload (@Load@)","type":"Physical, Exotic","cost":["1"],"reference":"B74","category":"Advantage","modifiers":null}
+,"penetratingVision":{"advId":"penetratingVision","name":"Penetrating Vision","type":"Physical","cost":["10"],"reference":"B74","category":"Advantage","modifiers":null}
+,"penetratingVoice":{"advId":"penetratingVoice","name":"Penetrating Voice","type":"Physical","reference":"B101","category":"Perk","modifiers":null}
+,"perfectBalance":{"advId":"perfectBalance","name":"Perfect Balance","type":"Physical","reference":"B74","category":"Advantage","modifiers":null}
+,"peripheralVision":{"advId":"peripheralVision","name":"Peripheral Vision","type":"Physical","reference":"B74","category":"Advantage","modifiers":null}
+,"permeation":{"advId":"permeation","name":"Permeation","type":"Physical, Exotic","reference":"B75","category":"Advantage","modifiers":null}
+,"personalityChange":{"advId":"personalityChange","name":"Personality Change","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"phantomVoices":{"advId":"phantomVoices","name":"Phantom Voices","type":"Mental","reference":"B148","category":"Disadvantage","modifiers":null}
+,"pitiable":{"advId":"pitiable","name":"Pitiable","type":"Physical, Social","reference":"B22","category":"Advantage","modifiers":null}
+,"plantEmpathy":{"advId":"plantEmpathy","name":"Plant Empathy","type":"Mental","reference":"B75","category":"Advantage","modifiers":null}
+,"possession":{"advId":"possession","name":"Possession","type":"Mental, Exotic","reference":"B75","category":"Advantage","modifiers":null}
+,"postCombatShakes":{"advId":"postCombatShakes","name":"Post-Combat Shakes","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"powerInvestiture":{"advId":"powerInvestiture","name":"Power Investiture","type":"Mental, Supernatural","cost":["10"],"reference":"B77","category":"Advantage","modifiers":null}
+,"precognition":{"advId":"precognition","name":"Precognition","type":"Mental, Supernatural","reference":"B77","category":"Advantage","modifiers":null}
+,"pressureSupport":{"advId":"pressureSupport","name":"Pressure Support","type":"Physical, Exotic","cost":["5"],"reference":"B77","category":"Advantage","modifiers":null}
+,"protectedSenseSense":{"advId":"protectedSenseSense","name":"Protected Sense (@Sense@)","type":"Physical, Exotic","reference":"B78","category":"Advantage","modifiers":null}
+,"proud":{"advId":"proud","name":"Proud","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"psionophobiaPsionicsCommon":{"advId":"psionophobiaPsionicsCommon","name":"Psionophobia (Psionics, Common)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"psionophobiaPsionicsUncommon":{"advId":"psionophobiaPsionicsUncommon","name":"Psionophobia (Psionics, Uncommon)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"psionophobiaPsionicsUnknown":{"advId":"psionophobiaPsionicsUnknown","name":"Psionophobia (Psionics, Unknown)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"psychometry":{"advId":"psychometry","name":"Psychometry","type":"Mental, Supernatural","reference":"B78","category":"Advantage","modifiers":null}
+,"puppetAllyGroup":{"advId":"puppetAllyGroup","name":"Puppet (@Ally Group@)","type":"Mental, Exotic","reference":"B78","category":"Advantage","modifiers":null}
+,"puppetAllyOrDependant":{"advId":"puppetAllyOrDependant","name":"Puppet (@Ally or Dependant@)","type":"Mental, Exotic","reference":"B78","category":"Advantage","modifiers":null}
+,"pyromania":{"advId":"pyromania","name":"Pyromania","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"pyrophobiaFire":{"advId":"pyrophobiaFire","name":"Pyrophobia (Fire)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"quadriplegic":{"advId":"quadriplegic","name":"Quadriplegic","type":"Physical","reference":"B150","category":"Disadvantage","modifiers":null}
+,"racialMemory":{"advId":"racialMemory","name":"Racial Memory","type":"Mental, Exotic","reference":"B78","category":"Advantage","modifiers":null}
+,"radiationTolerance":{"advId":"radiationTolerance","name":"Radiation Tolerance","type":"Physical, Exotic","reference":"B79","category":"Advantage","modifiers":null}
+,"rank":{"advId":"rank","name":"Rank","type":"Physical","cost":["5"],"reference":"B29","category":"Advantage","modifiers":null}
+,"rapidHealing":{"advId":"rapidHealing","name":"Rapid Healing","type":"Physical","reference":"B79","category":"Advantage","modifiers":null}
+,"rapidHealingVery":{"advId":"rapidHealingVery","name":"Rapid Healing, Very","type":"Physical","reference":"B79","category":"Advantage","modifiers":null}
+,"rapierWit":{"advId":"rapierWit","name":"Rapier Wit","type":"Mental","reference":"B79","category":"Advantage","modifiers":null}
+,"reawakened":{"advId":"reawakened","name":"Reawakened","type":"Mental, Supernatural","reference":"B80","category":"Advantage","modifiers":null}
+,"recovery":{"advId":"recovery","name":"Recovery","type":"Physical, Exotic","reference":"B80","category":"Advantage","modifiers":null}
+,"reducedConsumption":{"advId":"reducedConsumption","name":"Reduced Consumption","type":"Physical","cost":["2"],"reference":"B80","category":"Advantage","modifiers":null}
+,"regeneration":{"advId":"regeneration","name":"Regeneration","type":"Physical, Exotic","reference":"B80","category":"Advantage","modifiers":null}
+,"regrowth":{"advId":"regrowth","name":"Regrowth","type":"Physical, Exotic","reference":"B80","category":"Advantage","modifiers":null}
+,"reprogrammable":{"advId":"reprogrammable","name":"Reprogrammable","type":"Mental, Exotic","reference":"B150","category":"Disadvantage","modifiers":null}
+,"reputation":{"advId":"reputation","name":"Reputation","type":"Social","cost":["5"],"reference":"B26","category":"Advantage","modifiers":null}
+,"resistant":{"advId":"resistant","name":"Resistant","type":"Physical","reference":"B81","category":"Advantage","modifiers":null}
+,"responsive":{"advId":"responsive","name":"Responsive","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"restrictedDietFood":{"advId":"restrictedDietFood","name":"Restricted Diet (@Food@)","type":"Physical","reference":"B151","category":"Disadvantage","modifiers":null}
+,"restrictedVisionNoPeripheralVision":{"advId":"restrictedVisionNoPeripheralVision","name":"Restricted Vision (No Peripheral Vision)","type":"Physical","reference":"B151","category":"Disadvantage","modifiers":null}
+,"restrictedVisionTunnelVision":{"advId":"restrictedVisionTunnelVision","name":"Restricted Vision (Tunnel Vision)","type":"Physical","reference":"B151","category":"Disadvantage","modifiers":null}
+,"revulsionCommonSubstance":{"advId":"revulsionCommonSubstance","name":"Revulsion (@Common substance@)","type":"Physical, Supernatural","reference":"B151","category":"Disadvantage","modifiers":null}
+,"revulsionOccasionalSubstance":{"advId":"revulsionOccasionalSubstance","name":"Revulsion (@Occasional substance@)","type":"Physical, Supernatural","reference":"B151","category":"Disadvantage","modifiers":null}
+,"revulsionVeryCommonSubstance":{"advId":"revulsionVeryCommonSubstance","name":"Revulsion (@Very Common substance@)","type":"Physical, Supernatural","reference":"B151","category":"Disadvantage","modifiers":null}
+,"sadism":{"advId":"sadism","name":"Sadism","type":"Mental","reference":"B152","category":"Disadvantage","modifiers":null}
+,"sanitizedMetabolism":{"advId":"sanitizedMetabolism","name":"Sanitized Metabolism","type":"Physical","reference":"B101","category":"Perk","modifiers":null}
+,"scanningSense":{"advId":"scanningSense","name":"Scanning Sense","type":"Physical, Exotic","reference":"B81","category":"Advantage","modifiers":null}
+,"scotophobiaDarkness":{"advId":"scotophobiaDarkness","name":"Scotophobia (Darkness)","type":"Mental","reference":"B149","category":"Disadvantage","modifiers":null}
+,"sealed":{"advId":"sealed","name":"Sealed","type":"Physical, Exotic","reference":"B82","category":"Advantage","modifiers":null}
+,"secretSecret":{"advId":"secretSecret","name":"Secret (@Secret@)","type":"Social","reference":"B152","category":"Disadvantage","modifiers":null}
+,"secretIdentitySecretId":{"advId":"secretIdentitySecretId","name":"Secret Identity (@Secret ID@)","type":"Social","reference":"B152","category":"Disadvantage","modifiers":null}
+,"securityClearance":{"advId":"securityClearance","name":"Security Clearance","type":"Social","reference":"B82","category":"Advantage","modifiers":null}
+,"seeInvisible":{"advId":"seeInvisible","name":"See Invisible","type":"Physical, Exotic","reference":"B83","category":"Advantage","modifiers":null}
+,"selfDestruct":{"advId":"selfDestruct","name":"Self-Destruct","type":"Physical, Exotic","reference":"B153","category":"Disadvantage","modifiers":null}
+,"selfish":{"advId":"selfish","name":"Selfish","type":"Mental","reference":"B153","category":"Disadvantage","modifiers":null}
+,"selfless":{"advId":"selfless","name":"Selfless","type":"Mental","reference":"B153","category":"Disadvantage","modifiers":null}
+,"semiUpright":{"advId":"semiUpright","name":"Semi-Upright","type":"Physical, Exotic","reference":"B153","category":"Disadvantage","modifiers":null}
+,"senseOfDuty":{"advId":"senseOfDuty","name":"Sense of Duty","type":"Mental","reference":"B153","category":"Disadvantage","modifiers":null}
+,"sensitiveTouch":{"advId":"sensitiveTouch","name":"Sensitive Touch","type":"Physical, Exotic","reference":"B83","category":"Advantage","modifiers":null}
+,"serendipity":{"advId":"serendipity","name":"Serendipity","type":"Mental","cost":["15"],"reference":"B83","category":"Advantage","modifiers":null}
+,"sexless":{"advId":"sexless","name":"Sexless","type":"Physical","reference":"B165","category":"Quirk","modifiers":null}
+,"shadowForm":{"advId":"shadowForm","name":"Shadow Form","type":"Physical, Exotic","reference":"B83","category":"Advantage","modifiers":null}
+,"shadowFormCantTurnOff":{"advId":"shadowFormCantTurnOff","name":"Shadow Form (Can't Turn Off)","type":"Physical, Exotic","reference":"B153","category":"Disadvantage","modifiers":null}
+,"shapeshifting":{"advId":"shapeshifting","name":"Shapeshifting","type":"Physical, Exotic","reference":"B83","category":"Advantage","modifiers":null}
+,"shortAttentionSpan":{"advId":"shortAttentionSpan","name":"Short Attention Span","type":"Mental","reference":"B153","category":"Disadvantage","modifiers":null}
+,"shortLifespan":{"advId":"shortLifespan","name":"Short Lifespan","type":"Physical, Exotic","cost":["-10"],"reference":"B154","category":"Disadvantage","modifiers":null}
+,"shrinking":{"advId":"shrinking","name":"Shrinking","type":"Physical, Exotic","cost":["5"],"reference":"B85","category":"Advantage","modifiers":null}
+,"shtick":{"advId":"shtick","name":"Shtick","type":"Mental/Physical","reference":"B101,HT250,MA51","category":"Perk","modifiers":null}
+,"shyness":{"advId":"shyness","name":"Shyness","type":"Mental","reference":"B154","category":"Disadvantage","modifiers":null}
+,"signLanguageLanguage":{"advId":"signLanguageLanguage","name":"Sign Language: @Language@","type":"Mental/Physical","reference":"B25","category":"Advantage","modifiers":null}
+,"signatureGear":{"advId":"signatureGear","name":"Signature Gear","type":"Social","cost":["1"],"reference":"B85","category":"Advantage","modifiers":null}
+,"silence":{"advId":"silence","name":"Silence","type":"Physical, Exotic","cost":["5"],"reference":"B85","category":"Advantage","modifiers":null}
+,"singleMinded":{"advId":"singleMinded","name":"Single-Minded","type":"Mental","reference":"B85","category":"Advantage","modifiers":null}
+,"skinny":{"advId":"skinny","name":"Skinny","type":"Physical","reference":"B18","category":"Disadvantage","modifiers":null}
+,"slaveMentality":{"advId":"slaveMentality","name":"Slave Mentality","type":"Physical","reference":"B154","category":"Disadvantage","modifiers":null}
+,"sleepwalker":{"advId":"sleepwalker","name":"Sleepwalker","type":"Mental","reference":"B154","category":"Disadvantage","modifiers":null}
+,"sleepy":{"advId":"sleepy","name":"Sleepy","type":"Physical, Exotic","reference":"B154","category":"Disadvantage","modifiers":null}
+,"slippery":{"advId":"slippery","name":"Slippery","type":"Physical, Exotic","cost":["2"],"reference":"B85","category":"Advantage","modifiers":null}
+,"slowEater":{"advId":"slowEater","name":"Slow Eater","type":"Physical, Exotic","reference":"B155","category":"Disadvantage","modifiers":null}
+,"slowHealing":{"advId":"slowHealing","name":"Slow Healing","type":"Physical","cost":["-5"],"reference":"B155","category":"Disadvantage","modifiers":null}
+,"slowRiser":{"advId":"slowRiser","name":"Slow Riser","type":"Physical","reference":"B155","category":"Disadvantage","modifiers":null}
+,"snatcher":{"advId":"snatcher","name":"Snatcher","type":"Mental, Supernatural","reference":"B86","category":"Advantage","modifiers":null}
+,"socialChameleon":{"advId":"socialChameleon","name":"Social Chameleon","type":"Mental","reference":"B86","category":"Advantage","modifiers":null}
+,"socialDisease":{"advId":"socialDisease","name":"Social Disease","type":"Physical","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialRegard":{"advId":"socialRegard","name":"Social Regard","type":"Social","cost":["5"],"reference":"B87","category":"Advantage","modifiers":null}
+,"socialStigmaCriminalRecord":{"advId":"socialStigmaCriminalRecord","name":"Social Stigma (Criminal Record)","type":"Social","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialStigmaDisownedNonHeir":{"advId":"socialStigmaDisownedNonHeir","name":"Social Stigma (Disowned, Non-heir)","type":"Social","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialStigmaDisownedOutcast":{"advId":"socialStigmaDisownedOutcast","name":"Social Stigma (Disowned, Outcast)","type":"Social","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialStigmaExcommunicated":{"advId":"socialStigmaExcommunicated","name":"Social Stigma (Excommunicated)","type":"Social","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialStigmaIgnorantSkill":{"advId":"socialStigmaIgnorantSkill","name":"Social Stigma (Ignorant; @Skill@)","type":"Social","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialStigmaMinor":{"advId":"socialStigmaMinor","name":"Social Stigma (Minor)","type":"Social","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialStigmaMinorityGroup":{"advId":"socialStigmaMinorityGroup","name":"Social Stigma (Minority Group)","type":"Social","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialStigmaMonster":{"advId":"socialStigmaMonster","name":"Social Stigma (Monster)","type":"Social","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialStigmaSecondClassCitizen":{"advId":"socialStigmaSecondClassCitizen","name":"Social Stigma (Second-Class Citizen)","type":"Social","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialStigmaSubjugated":{"advId":"socialStigmaSubjugated","name":"Social Stigma (Subjugated)","type":"Social","reference":"B155","category":"Disadvantage","modifiers":null}
+,"socialStigmaUneducated":{"advId":"socialStigmaUneducated","name":"Social Stigma (Uneducated)","type":"Social","reference":"B156","category":"Disadvantage","modifiers":null}
+,"socialStigmaValuableProperty":{"advId":"socialStigmaValuableProperty","name":"Social Stigma (Valuable Property)","type":"Social","reference":"B156","category":"Disadvantage","modifiers":null}
+,"spaceSickness":{"advId":"spaceSickness","name":"Space Sickness","type":"Physical","reference":"B156","category":"Disadvantage","modifiers":null}
+,"speakUnderwater":{"advId":"speakUnderwater","name":"Speak Underwater","type":"Physical, Exotic","reference":"B87","category":"Advantage","modifiers":null}
+,"speakWithAnimals":{"advId":"speakWithAnimals","name":"Speak With Animals","type":"Mental, Exotic","reference":"B87","category":"Advantage","modifiers":null}
+,"speakWithPlants":{"advId":"speakWithPlants","name":"Speak With Plants","type":"Mental, Exotic","reference":"B87","category":"Advantage","modifiers":null}
+,"specialRapportPerson":{"advId":"specialRapportPerson","name":"Special Rapport (@Person@)","type":"Mental, Supernatural","reference":"B88","category":"Advantage","modifiers":null}
+,"spinesLong":{"advId":"spinesLong","name":"Spines, Long","type":"Physical, Exotic","reference":"B88","category":"Advantage","modifiers":null}
+,"spinesShort":{"advId":"spinesShort","name":"Spines, Short","type":"Physical, Exotic","reference":"B88","category":"Perk","modifiers":null}
+,"spiritEmpathy":{"advId":"spiritEmpathy","name":"Spirit Empathy","type":"Mental, Supernatural","reference":"B88","category":"Advantage","modifiers":null}
+,"splitPersonality":{"advId":"splitPersonality","name":"Split Personality","type":"Mental","reference":"B156","category":"Disadvantage","modifiers":null}
+,"squeamish":{"advId":"squeamish","name":"Squeamish","type":"Physical","reference":"B156","category":"Disadvantage","modifiers":null}
+,"staid":{"advId":"staid","name":"Staid","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"staticPsi":{"advId":"staticPsi","name":"Static (Psi)","type":"Mental, Supernatural","reference":"B78","category":"Advantage","modifiers":null}
+,"statusDescription":{"advId":"statusDescription","name":"Status (@Description@)","type":"Social","cost":["-5"],"reference":"B28","category":"Disadvantage","modifiers":null}
+,"status":{"advId":"status","name":"Status","type":"Social","cost":["5"],"reference":"B28","category":"Advantage","modifiers":null}
+,"stressAtavism":{"advId":"stressAtavism","name":"Stress Atavism","type":"Mental, Exotic","reference":"B156","category":"Disadvantage","modifiers":null}
+,"stretching":{"advId":"stretching","name":"Stretching","type":"Physical, Exotic","cost":["6"],"reference":"B88","category":"Advantage","modifiers":null}
+,"strikerCrushingBodyPart":{"advId":"strikerCrushingBodyPart","name":"Striker, Crushing (@Body Part@)","type":"Physical, Exotic","reference":"B88","category":"Advantage","modifiers":null}
+,"strikerCuttingBodyPart":{"advId":"strikerCuttingBodyPart","name":"Striker, Cutting (@Body Part@)","type":"Physical, Exotic","reference":"B88","category":"Advantage","modifiers":null}
+,"strikerImpalingBodyPart":{"advId":"strikerImpalingBodyPart","name":"Striker, Impaling (@Body Part@)","type":"Physical, Exotic","reference":"B88","category":"Advantage","modifiers":null}
+,"strikerLargePiercingBodyPart":{"advId":"strikerLargePiercingBodyPart","name":"Striker, Large Piercing (@Body Part@)","type":"Physical, Exotic","reference":"B88","category":"Advantage","modifiers":null}
+,"strikerPiercingBodyPart":{"advId":"strikerPiercingBodyPart","name":"Striker, Piercing (@Body Part@)","type":"Physical, Exotic","reference":"B88","category":"Advantage","modifiers":null}
+,"strikingSt":{"advId":"strikingSt","name":"Striking ST","type":"Physical, Exotic","cost":["5"],"reference":"B88","category":"Advantage","modifiers":null}
+,"stubbornness":{"advId":"stubbornness","name":"Stubbornness","type":"Mental","reference":"B157","category":"Disadvantage","modifiers":null}
+,"stuttering":{"advId":"stuttering","name":"Stuttering","type":"Physical","reference":"B157","category":"Disadvantage","modifiers":null}
+,"subsonicHearing":{"advId":"subsonicHearing","name":"Subsonic Hearing","type":"Physical, Exotic","reference":"B89","category":"Advantage","modifiers":null}
+,"subsonicSpeech":{"advId":"subsonicSpeech","name":"Subsonic Speech","type":"Physical, Exotic","reference":"B89","category":"Advantage","modifiers":null}
+,"superClimbing":{"advId":"superClimbing","name":"Super Climbing","type":"Physical, Exotic","cost":["3"],"reference":"B89","category":"Advantage","modifiers":null}
+,"superJump":{"advId":"superJump","name":"Super Jump","type":"Physical, Exotic","cost":["10"],"reference":"B89","category":"Advantage","modifiers":null}
+,"supernaturalDurability":{"advId":"supernaturalDurability","name":"Supernatural Durability","type":"Physical, Supernatural","reference":"B89","category":"Advantage","modifiers":null}
+,"supernaturalFeaturesNoBodyHeat":{"advId":"supernaturalFeaturesNoBodyHeat","name":"Supernatural Features (No Body Heat)","type":"Physical, Supernatural","reference":"B157","category":"Disadvantage","modifiers":null}
+,"supernaturalFeaturesNoBodyHeatTemporary":{"advId":"supernaturalFeaturesNoBodyHeatTemporary","name":"Supernatural Features (No Body Heat; Temporary)","type":"Physical, Supernatural","reference":"B157","category":"Quirk","modifiers":null}
+,"supernaturalFeaturesNoPulse":{"advId":"supernaturalFeaturesNoPulse","name":"Supernatural Features (No Pulse)","type":"Physical, Supernatural","reference":"H26","category":"Disadvantage","modifiers":null}
+,"supernaturalFeaturesNoReflection":{"advId":"supernaturalFeaturesNoReflection","name":"Supernatural Features (No Reflection)","type":"Physical, Supernatural","reference":"B157","category":"Disadvantage","modifiers":null}
+,"supernaturalFeaturesNoShadow":{"advId":"supernaturalFeaturesNoShadow","name":"Supernatural Features (No Shadow)","type":"Physical, Supernatural","reference":"B157","category":"Disadvantage","modifiers":null}
+,"supernaturalFeaturesPallor":{"advId":"supernaturalFeaturesPallor","name":"Supernatural Features (Pallor)","type":"Physical, Supernatural","reference":"B157","category":"Disadvantage","modifiers":null}
+,"supernaturalFeaturesPallorTemporary":{"advId":"supernaturalFeaturesPallorTemporary","name":"Supernatural Features (Pallor; Temporary)","type":"Physical, Supernatural","reference":"B157","category":"Disadvantage","modifiers":null}
+,"supersensitive":{"advId":"supersensitive","name":"Supersensitive","type":"Mental, Supernatural","reference":"B158","category":"Disadvantage","modifiers":null}
+,"susceptibleSubstance":{"advId":"susceptibleSubstance","name":"Susceptible (@Substance@)","type":"Physical","cost":["-1"],"reference":"B158","category":"Disadvantage","modifiers":null}
+,"talentLarge":{"advId":"talentLarge","name":"Talent (@Large@)","type":"Mental","cost":["15"],"reference":"B89","category":"Advantage","modifiers":null}
+,"talentMedium":{"advId":"talentMedium","name":"Talent (@Medium@)","type":"Mental","cost":["10"],"reference":"B89","category":"Advantage","modifiers":null}
+,"talentSmall":{"advId":"talentSmall","name":"Talent (@Small@)","type":"Mental","cost":["5"],"reference":"B89","category":"Advantage","modifiers":null}
+,"talentAnimalFriend":{"advId":"talentAnimalFriend","name":"Talent (Animal Friend)","type":"Mental","cost":["5"],"reference":"B90,PU3:6","category":"Advantage","modifiers":null}
+,"talentArtificer":{"advId":"talentArtificer","name":"Talent (Artificer)","type":"Mental","cost":["10"],"reference":"B90","category":"Advantage","modifiers":null}
+,"talentBusinessAcumen":{"advId":"talentBusinessAcumen","name":"Talent (Business Acumen)","type":"Mental","cost":["10"],"reference":"B90","category":"Advantage","modifiers":null}
+,"talentGiftedArtist":{"advId":"talentGiftedArtist","name":"Talent (Gifted Artist)","type":"Mental","cost":["5"],"reference":"B90,PU3:10","category":"Advantage","modifiers":null}
+,"talentGreenThumb":{"advId":"talentGreenThumb","name":"Talent (Green Thumb)","type":"Mental","cost":["5"],"reference":"B90,PU3:11","category":"Advantage","modifiers":null}
+,"talentHealer":{"advId":"talentHealer","name":"Talent (Healer)","type":"Mental","cost":["10"],"reference":"B90,PU3:11","category":"Advantage","modifiers":null}
+,"talentMathematicalAbility":{"advId":"talentMathematicalAbility","name":"Talent (Mathematical Ability)","type":"Mental","cost":["10"],"reference":"B90,PU3:12","category":"Advantage","modifiers":null}
+,"talentMusicalAbility":{"advId":"talentMusicalAbility","name":"Talent (Musical Ability)","type":"Mental","cost":["5"],"reference":"B90,PU3:13","category":"Advantage","modifiers":null}
+,"talentOutdoorsman":{"advId":"talentOutdoorsman","name":"Talent (Outdoorsman)","type":"Mental","cost":["10"],"reference":"B90,PU3:14","category":"Advantage","modifiers":null}
+,"talentSmoothOperator":{"advId":"talentSmoothOperator","name":"Talent (Smooth Operator)","type":"Mental","cost":["15"],"reference":"B90,PU3:15","category":"Advantage","modifiers":null}
+,"technophobiaTl4Machinery":{"advId":"technophobiaTl4Machinery","name":"Technophobia/TL4- (Machinery)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"technophobiaTl5Machinery":{"advId":"technophobiaTl5Machinery","name":"Technophobia/TL5+ (Machinery)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"teethBlunt":{"advId":"teethBlunt","name":"Teeth, Blunt","type":"Physical, Exotic","reference":"B91","category":"Advantage","modifiers":null}
+,"teethFangs":{"advId":"teethFangs","name":"Teeth, Fangs","type":"Physical, Exotic","reference":"B91","category":"Advantage","modifiers":null}
+,"teethSharp":{"advId":"teethSharp","name":"Teeth, Sharp","type":"Physical, Exotic","reference":"B91","category":"Perk","modifiers":null}
+,"teethSharpBeak":{"advId":"teethSharpBeak","name":"Teeth, Sharp Beak","type":"Physical, Exotic","reference":"B91","category":"Perk","modifiers":null}
+,"telecommunication":{"advId":"telecommunication","name":"Telecommunication","type":"Mental/Physical, Exotic","reference":"B91","category":"Advantage","modifiers":null}
+,"telekinesis":{"advId":"telekinesis","name":"Telekinesis","type":"Mental/Physical, Exotic","cost":["5"],"reference":"B92","category":"Advantage","modifiers":null}
+,"telescopicVision":{"advId":"telescopicVision","name":"Telescopic Vision","type":"Physical","cost":["5"],"reference":"B92","category":"Advantage","modifiers":null}
+,"temperatureControl":{"advId":"temperatureControl","name":"Temperature Control","type":"Mental/Physical, Exotic","cost":["5"],"reference":"B92","category":"Advantage","modifiers":null}
+,"temperatureTolerance":{"advId":"temperatureTolerance","name":"Temperature Tolerance","type":"Physical","cost":["1"],"reference":"B93","category":"Advantage","modifiers":null}
+,"temporalInertia":{"advId":"temporalInertia","name":"Temporal Inertia","type":"Mental, Supernatural","reference":"B93","category":"Advantage","modifiers":null}
+,"tenure":{"advId":"tenure","name":"Tenure","type":"Social","reference":"B93","category":"Advantage","modifiers":null}
+,"teratophobiaMonsters":{"advId":"teratophobiaMonsters","name":"Teratophobia (Monsters)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"terminallyIll":{"advId":"terminallyIll","name":"Terminally Ill","type":"Physical","reference":"B158","category":"Disadvantage","modifiers":null}
+,"terrainAdaptationTerrainType":{"advId":"terrainAdaptationTerrainType","name":"Terrain Adaptation (@Terrain Type@)","type":"Physical, Exotic","reference":"B93","category":"Advantage","modifiers":null}
+,"terror":{"advId":"terror","name":"Terror","type":"Mental, Supernatural","cost":["10"],"reference":"B93","category":"Advantage","modifiers":null}
+,"thalassophobiaOceans":{"advId":"thalassophobiaOceans","name":"Thalassophobia (Oceans)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"timesickness":{"advId":"timesickness","name":"Timesickness","type":"Physical","reference":"B158","category":"Disadvantage","modifiers":null}
+,"trademark":{"advId":"trademark","name":"Trademark","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"trademarkComplex":{"advId":"trademarkComplex","name":"Trademark (@Complex@)","type":"Mental","reference":"B159","category":"Disadvantage","modifiers":null}
+,"trademarkElaborate":{"advId":"trademarkElaborate","name":"Trademark (@Elaborate@)","type":"Mental","reference":"B159","category":"Disadvantage","modifiers":null}
+,"trademarkSimple":{"advId":"trademarkSimple","name":"Trademark (@Simple@)","type":"Mental","reference":"B159","category":"Disadvantage","modifiers":null}
+,"trainedByAMaster":{"advId":"trainedByAMaster","name":"Trained by a Master","type":"Mental","reference":"B93","category":"Advantage","modifiers":null}
+,"trickster":{"advId":"trickster","name":"Trickster","type":"Mental","reference":"B159","category":"Disadvantage","modifiers":null}
+,"trueFaith":{"advId":"trueFaith","name":"True Faith","type":"Mental, Supernatural","reference":"B94","category":"Advantage","modifiers":null}
+,"truthfulness":{"advId":"truthfulness","name":"Truthfulness","type":"Mental","reference":"B159","category":"Disadvantage","modifiers":null}
+,"tunnelingTunnelMove":{"advId":"tunnelingTunnelMove","name":"Tunneling (@Tunnel Move@)","type":"Physical, Exotic","cost":["5"],"reference":"B94","category":"Advantage","modifiers":null}
+,"ultrahearing":{"advId":"ultrahearing","name":"Ultrahearing","type":"Physical, Exotic","reference":"B94","category":"Advantage","modifiers":null}
+,"ultrasonicSpeech":{"advId":"ultrasonicSpeech","name":"Ultrasonic Speech","type":"Physical, Exotic","reference":"B94","category":"Advantage","modifiers":null}
+,"ultravision":{"advId":"ultravision","name":"Ultravision","type":"Physical, Exotic","reference":"B94","category":"Advantage","modifiers":null}
+,"unaging":{"advId":"unaging","name":"Unaging","type":"Physical, Exotic","reference":"B95","category":"Advantage","modifiers":null}
+,"uncongenial":{"advId":"uncongenial","name":"Uncongenial","type":"Mental","reference":"B164","category":"Quirk","modifiers":null}
+,"uncontrollableAppetiteCraving":{"advId":"uncontrollableAppetiteCraving","name":"Uncontrollable Appetite (@Craving@)","type":"Mental, Supernatural","reference":"B159","category":"Disadvantage","modifiers":null}
+,"unfazeable":{"advId":"unfazeable","name":"Unfazeable","type":"Mental","reference":"B95","category":"Advantage","modifiers":null}
+,"unfit":{"advId":"unfit","name":"Unfit","type":"Physical","reference":"B160","category":"Disadvantage","modifiers":null}
+,"unfitVery":{"advId":"unfitVery","name":"Unfit (Very)","type":"Physical","reference":"B160","category":"Disadvantage","modifiers":null}
+,"unhealingPartial":{"advId":"unhealingPartial","name":"Unhealing (Partial)","type":"Physical, Exotic","reference":"B160","category":"Disadvantage","modifiers":null}
+,"unhealingTotal":{"advId":"unhealingTotal","name":"Unhealing (Total)","type":"Physical, Exotic","reference":"B160","category":"Disadvantage","modifiers":null}
+,"unique":{"advId":"unique","name":"Unique","type":"Mental, Supernatural","reference":"B160","category":"Disadvantage","modifiers":null}
+,"universalDigestion":{"advId":"universalDigestion","name":"Universal Digestion","type":"Physical","reference":"B95","category":"Advantage","modifiers":null}
+,"unkillable":{"advId":"unkillable","name":"Unkillable","type":"Physical, Exotic","cost":["50"],"reference":"B95","category":"Advantage","modifiers":null}
+,"unluckiness":{"advId":"unluckiness","name":"Unluckiness","type":"Mental","reference":"B160","category":"Disadvantage","modifiers":null}
+,"unnaturalFeaturesDescription":{"advId":"unnaturalFeaturesDescription","name":"Unnatural Features (@Description@)","type":"Physical","cost":["-1"],"reference":"B22","category":"Disadvantage","modifiers":null}
+,"unusualBackground":{"advId":"unusualBackground","name":"Unusual Background","type":"Mental","reference":"B96","category":"Advantage","modifiers":null}
+,"unusualBiochemistry":{"advId":"unusualBiochemistry","name":"Unusual Biochemistry","type":"Physical","reference":"B160","category":"Disadvantage","modifiers":null}
+,"vacuumSupport":{"advId":"vacuumSupport","name":"Vacuum Support","type":"Physical, Exotic","reference":"B96","category":"Advantage","modifiers":null}
+,"vampiricBite":{"advId":"vampiricBite","name":"Vampiric Bite","type":"Physical, Exotic","cost":["5"],"reference":"B96","category":"Advantage","modifiers":null}
+,"versatile":{"advId":"versatile","name":"Versatile","type":"Mental","reference":"B96","category":"Advantage","modifiers":null}
+,"veryFat":{"advId":"veryFat","name":"Very Fat","type":"Physical","reference":"B19","category":"Disadvantage","modifiers":null}
+,"vibrationSense":{"advId":"vibrationSense","name":"Vibration Sense","type":"Physical, Exotic","reference":"B96","category":"Advantage","modifiers":null}
+,"visualization":{"advId":"visualization","name":"Visualization","type":"Mental, Supernatural","reference":"B96","category":"Advantage","modifiers":null}
+,"voice":{"advId":"voice","name":"Voice","type":"Physical","reference":"B97","category":"Advantage","modifiers":null}
+,"vow":{"advId":"vow","name":"Vow","type":"Mental","reference":"B165","category":"Quirk","modifiers":null}
+,"vowSubject":{"advId":"vowSubject","name":"Vow (@Subject@)","type":"Physical","reference":"B161","category":"Disadvantage","modifiers":null}
+,"vulnerability":{"advId":"vulnerability","name":"Vulnerability","type":"Physical, Exotic","reference":"B161","category":"Disadvantage","modifiers":null}
+,"walkOnAir":{"advId":"walkOnAir","name":"Walk On Air","type":"Physical, Exotic","reference":"B97","category":"Advantage","modifiers":null}
+,"walkOnLiquid":{"advId":"walkOnLiquid","name":"Walk On Liquid","type":"Physical, Exotic","reference":"B97","category":"Advantage","modifiers":null}
+,"warp":{"advId":"warp","name":"Warp","type":"Mental, Supernatural","reference":"B97","category":"Advantage","modifiers":null}
+,"weakBite":{"advId":"weakBite","name":"Weak Bite","type":"Physical, Exotic","reference":"B161","category":"Disadvantage","modifiers":null}
+,"weakness":{"advId":"weakness","name":"Weakness","type":"Physical, Exotic","reference":"B161","category":"Disadvantage","modifiers":null}
+,"wealth":{"advId":"wealth","name":"Wealth","type":"Social","reference":"B25","category":"Advantage","modifiers":null}
+,"wealthMultimillionaire":{"advId":"wealthMultimillionaire","name":"Wealth, Multimillionaire","type":"Social","cost":["25"],"reference":"B25","category":"Advantage","modifiers":null}
+,"weaponMasterSpecialty":{"advId":"weaponMasterSpecialty","name":"Weapon Master (@Specialty@)","type":"Mental","reference":"B99","category":"Advantage","modifiers":null}
+,"weaponMasterAllWeapons":{"advId":"weaponMasterAllWeapons","name":"Weapon Master (All weapons)","type":"Mental","reference":"B99","category":"Advantage","modifiers":null}
+,"weirdnessMagnet":{"advId":"weirdnessMagnet","name":"Weirdness Magnet","type":"Mental, Supernatural","reference":"B161","category":"Disadvantage","modifiers":null}
+,"wildTalent":{"advId":"wildTalent","name":"Wild Talent","type":"Mental, Supernatural","cost":["20"],"reference":"B99","category":"Advantage","modifiers":null}
+,"workaholic":{"advId":"workaholic","name":"Workaholic","type":"Physical","reference":"B162","category":"Disadvantage","modifiers":null}
+,"wounded":{"advId":"wounded","name":"Wounded","type":"Physical","reference":"B162","category":"Disadvantage","modifiers":null}
+,"xenophilia":{"advId":"xenophilia","name":"Xenophilia","type":"Mental","reference":"B162","category":"Disadvantage","modifiers":null}
+,"xenophobiaStrangeAndUnknownThings":{"advId":"xenophobiaStrangeAndUnknownThings","name":"Xenophobia (Strange and Unknown Things)","type":"Mental","reference":"B150","category":"Disadvantage","modifiers":null}
+,"zeroed":{"advId":"zeroed","name":"Zeroed","type":"Social","reference":"B100","category":"Advantage","modifiers":null}
 }
