@@ -1,0 +1,6 @@
+.git/
+.idea/
+dist/
+node_modules/
+importGurpsData.iml
+src/*.d.ts
