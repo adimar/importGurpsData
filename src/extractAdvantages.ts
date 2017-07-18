@@ -28,7 +28,6 @@ export type SysAdvantage = {
 fs.readFile("../data/advantagesBasicSet.xml", "utf8", function (err, data) {
 
     xml2js.parseString(data, (err, rawAdvantages) => {
-
         let advantagesJson = _.reduce(rawAdvantages.advantage_list.advantage, (advantages: {[advId:string]:SysAdvantage}, singleAdvantage: any) => {
 
             return advantages;
